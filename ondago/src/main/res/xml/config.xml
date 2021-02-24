@@ -13,15 +13,12 @@
         AIBLAB
         sr
     </author>
-    <content src="http://211.233.16.146:8070" />
-    <!--<content src="http://ondago.iptime.org:8070" />-->
-    <!--<content src="index.html" />-->
+    <content src="https://lis.onda-go.net" />
     <access origin="*" />
     <allow-navigation href="*" />
-    <allow-navigation href="http://211.233.16.146:8070/*" />
+    <allow-navigation href="https://lis.onda-go.net/*" />
     <allow-navigation href="http://121.167.145.185:8070/*" />
     <allow-navigation href="http://183.98.75.53:18070/*" />
-    <allow-navigation href="http://ondago.iptime.org:8070/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
