@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="signpad_btn_bg_cancel">#807F83</color>
+    <color name="signpad_btn_bg_confirm">@color/colorPrimary</color>
+    <color name="signpad_divider">#D0D0D0</color>
+    <color name="signpad_stroke">#D0D0D0</color>
+    <color name="signpad_dropdown_icon">#333333</color>
+    <color name="signpad_text">#333333</color>
+    <color name="signpad_spinner_text">#333333</color>
+    <color name="signpad_more_info_text">#FF2727</color>
+</resources>

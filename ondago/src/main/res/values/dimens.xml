@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_margin_top">95dp</dimen>
+    <dimen name="popup_width">400dp</dimen>
+    <dimen name="popup_height">256dp</dimen>
+</resources>

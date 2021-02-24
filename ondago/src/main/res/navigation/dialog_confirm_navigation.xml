@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/confirm_dialog"
+    app:startDestination="@id/flow_dialog_dest">
+
+    <dialog
+        android:id="@+id/flow_dialog_dest"
+        android:name="kr.co.aiblab.ondago.ui.ConfirmDialogFragment"
+        android:label="@string/fragment_label_confirm_dialog">
+
+        <argument
+            android:name="id"
+            android:defaultValue="100"
+            app:argType="integer" />
+
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="message"
+            app:argType="string" />
+
+        <argument
+            android:name="btn_text_positive"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="btn_text_negative"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="isConfirmCancel"
+            android:defaultValue="false"
+            app:argType="boolean" />
+
+        <argument
+            android:name="isCancelable"
+            android:defaultValue="true"
+            app:argType="boolean" />
+    </dialog>
+</navigation>

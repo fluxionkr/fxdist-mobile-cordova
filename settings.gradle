@@ -1,0 +1,3 @@
+include ':cordovaLibExt'
+include ':ondago'
+rootProject.name = "Ondago"

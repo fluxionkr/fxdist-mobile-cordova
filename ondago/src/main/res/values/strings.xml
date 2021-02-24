@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">온다맨</string>
+
+    <string name="channel_id_location_foreground_service_readable">위치정보 수집 서비스</string>
+    <string name="location_foreground_service_content">온다맨 앱이 실행중입니다.</string>
+
+    <!--  Fragment Label -->
+    <string name="fragment_label_splash">Splash</string>
+    <string name="fragment_label_main">Main</string>
+    <string name="fragment_label_confirm_dialog">ConfirmDialog</string>
+
+    <string name="alert_dialog_title_default">알림</string>
+    <string name="alert_dialog_btn_label_confirm">확인</string>
+    <string name="alert_dialog_btn_label_cancel">취소</string>
+
+    <!--LoginFragment-->
+    <string name="login_btn_login">로그인</string>
+    <string name="login_error_msg_no_user_id">입력된 아이디가 없습니다.</string>
+    <string name="login_error_msg_no_password">입력된 비밀번호가 없습니다.</string>
+    <string name="login_emp_code_label">아이디</string>
+    <string name="login_emp_code_hint">아이디를 입력하세요.</string>
+    <string name="login_password_label">비밀번호</string>
+    <string name="login_auto_login_label">자동로그인</string>
+</resources>
