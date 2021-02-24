@@ -13,10 +13,10 @@
         AIBLAB
         sr
     </author>
-    <content src="https://lis.onda-go.net" />
+    <content src="https://lis.onda-go.net:18070" />
     <access origin="*" />
     <allow-navigation href="*" />
-    <allow-navigation href="https://lis.onda-go.net/*" />
+    <allow-navigation href="https://lis.onda-go.net:18070/*" />
     <allow-navigation href="http://121.167.145.185:8070/*" />
     <allow-navigation href="http://183.98.75.53:18070/*" />
     <allow-intent href="http://*/*" />
