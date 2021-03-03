@@ -1,24 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?><!--suppress XmlUnusedNamespaceDeclaration -->
+
 <widget xmlns:cdv="http://cordova.apache.org/ns/1.0"
     id="kr.co.aiblab.ondago"
     version="1.0.0"
     xmlns="http://www.w3.org/ns/widgets">
     <name>Ondago</name>
-    <description>
-        Ondago for Android
-    </description>
+    <description></description>
     <author
         email="aiblab21@gmail.com"
-        href="http://aiblab.co.kr/">
-        AIBLAB
-        sr
+        href="http://www.ondago.net">
     </author>
-    <content src="http://211.233.16.147:8070" />
+    <!-- 개발 -->
+    <content src="http://lis.onda-go.net:8070" />
+
     <access origin="*" />
     <allow-navigation href="*" />
-    <allow-navigation href="http://211.233.16.147:8070/*" />
-    <allow-navigation href="http://121.167.145.185:8070/*" />
-    <allow-navigation href="http://183.98.75.53:18070/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -26,64 +22,36 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
-    <preference
-        name="loglevel"
-        value="DEBUG" />
-    <preference
-        name="GradlePluginKotlinEnabled"
-        value="true" />
-    <preference
-        name="GradlePluginKotlinCodeStyle"
-        value="official" />
-    <preference
-        name="GradlePluginKotlinVersion"
-        value="1.4.10" />
-    <preference
-        name="AndroidXEnabled"
-        value="true" />
 
-    <!--Features-->
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="GradlePluginKotlinEnabled" value="true" />
+    <preference name="GradlePluginKotlinCodeStyle" value="official" />
+    <preference name="GradlePluginKotlinVersion" value="1.4.10" />
+    <preference name="AndroidXEnabled" value="true" />
+
     <feature name="Whitelist">
-        <param
-            name="android-package"
-            value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param
-            name="onload"
-            value="true" />
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
     </feature>
     <feature name="Navigation">
-        <param
-            name="android-package"
-            value="kr.co.aiblab.cordova.plugin.navigation.Navigation" />
+        <param name="android-package" value="kr.co.aiblab.cordova.plugin.navigation.Navigation" />
     </feature>
     <feature name="NFC">
-        <param
-            name="android-package"
-            value="kr.co.aiblab.cordova.plugin.nfc.NFC" />
+        <param name="android-package" value="kr.co.aiblab.cordova.plugin.nfc.NFC" />
     </feature>
     <feature name="SignPad">
-        <param
-            name="android-package"
-            value="kr.co.aiblab.cordova.plugin.signpad.SignPad" />
+        <param name="android-package" value="kr.co.aiblab.cordova.plugin.signpad.SignPad" />
     </feature>
     <feature name="Camera">
-        <param
-            name="android-package"
-            value="kr.co.aiblab.cordova.plugin.camera.Camera" />
+        <param name="android-package" value="kr.co.aiblab.cordova.plugin.camera.Camera" />
     </feature>
     <feature name="Location">
-        <param
-            name="android-package"
-            value="kr.co.aiblab.cordova.plugin.location.Location" />
+        <param name="android-package" value="kr.co.aiblab.cordova.plugin.location.Location" />
     </feature>
     <feature name="Barcode">
-        <param
-            name="android-package"
-            value="kr.co.aiblab.cordova.plugin.barcode.Barcode" />
+        <param name="android-package" value="kr.co.aiblab.cordova.plugin.barcode.Barcode" />
     </feature>
     <feature name="Auth">
-        <param
-            name="android-package"
-            value="kr.co.aiblab.cordova.plugin.auth.Auth" />
+        <param name="android-package" value="kr.co.aiblab.cordova.plugin.auth.Auth" />
     </feature>
 </widget>
