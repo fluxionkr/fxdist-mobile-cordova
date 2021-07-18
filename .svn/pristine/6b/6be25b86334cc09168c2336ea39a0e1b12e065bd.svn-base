@@ -1,0 +1,382 @@
+package kr.co.kit.cordova.plugin.nfc.device;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u00004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\b\n\u0002\u0010\u000b\n\u0002\b\t\bf\u0018\u0000 \u00182\u00020\u0001:\u0006\u0018\u0019\u001a\u001b\u001c\u001dJ\u0019\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0006J)\u0010\u0007\u001a\u00020\b2\u0006\u0010\t\u001a\u00020\n2\u0006\u0010\u000b\u001a\u00020\f2\u0006\u0010\r\u001a\u00020\fH\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u000eJ\u001b\u0010\u000f\u001a\u0004\u0018\u00010\n2\u0006\u0010\u0004\u001a\u00020\u0005H\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0006J\u0019\u0010\u0010\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0006J\u0019\u0010\u0011\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0006J+\u0010\u0012\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00052\b\b\u0002\u0010\u0013\u001a\u00020\f2\u0006\u0010\u0014\u001a\u00020\u0015H\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0016J\u0019\u0010\u0017\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H\u00a6@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0006\u0082\u0002\u0004\n\u0002\b\u0019\u00a8\u0006\u001e"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL;", "Lkr/co/kit/cordova/plugin/nfc/NFCDevice;", "getAAR", "", "tag", "Landroid/nfc/Tag;", "(Landroid/nfc/Tag;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "getData", "Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Data;", "respMessage", "Landroid/nfc/NdefMessage;", "currentPageIndex", "", "totalPageCount", "(Landroid/nfc/NdefMessage;IILkotlin/coroutines/Continuation;)Ljava/lang/Object;", "readResponse", "startConnect", "stopConnect", "writeStoredData", "pageIndex", "isSetDevice", "", "(Landroid/nfc/Tag;IZLkotlin/coroutines/Continuation;)Ljava/lang/Object;", "writeStoredDataInfo", "Companion", "Data", "DataLog", "Event", "EventId", "Status", "KITDIST_0.1.4_20210526_debug"})
+public abstract interface BoardADL extends kr.co.kit.cordova.plugin.nfc.NFCDevice {
+    @org.jetbrains.annotations.NotNull()
+    public static final kr.co.kit.cordova.plugin.nfc.device.BoardADL.Companion Companion = null;
+    public static final byte DATA_SENSOR_TYPE_TEMPERATURE = (byte)8;
+    public static final int SIZE_DATA_SENSOR_TEMPERATURE = 8;
+    public static final int CNT_BLOCK_DATA = 128;
+    public static final int CNT_READ_NUMBER_BLOCK = 7;
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object getAAR(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object startConnect(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object stopConnect(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object writeStoredDataInfo(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object writeStoredData(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, int pageIndex, boolean isSetDevice, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p3);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object readResponse(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super android.nfc.NdefMessage> p1);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object getData(@org.jetbrains.annotations.NotNull()
+    android.nfc.NdefMessage respMessage, int currentPageIndex, int totalPageCount, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data> p3);
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\b\u0002\b\u0087\u0002\u0018\u0000 \u00022\u00020\u0001:\u0001\u0002B\u0000\u00a8\u0006\u0003"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$EventId;", "", "Companion", "KITDIST_0.1.4_20210526_debug"})
+    @java.lang.annotation.Retention(value = java.lang.annotation.RetentionPolicy.SOURCE)
+    @kotlin.annotation.Retention(value = kotlin.annotation.AnnotationRetention.SOURCE)
+    public static abstract @interface EventId {
+        @org.jetbrains.annotations.NotNull()
+        public static final kr.co.kit.cordova.plugin.nfc.device.BoardADL.EventId.Companion Companion = null;
+        public static final int NORMAL = 0;
+        public static final int TEMPERATURE_START = 3;
+        public static final int TEMPERATURE_END = 4;
+        public static final int NFC_COMMUNICATION = 5;
+        
+        @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0004\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\b"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$EventId$Companion;", "", "()V", "NFC_COMMUNICATION", "", "NORMAL", "TEMPERATURE_END", "TEMPERATURE_START", "KITDIST_0.1.4_20210526_debug"})
+        public static final class Companion {
+            public static final int NORMAL = 0;
+            public static final int TEMPERATURE_START = 3;
+            public static final int TEMPERATURE_END = 4;
+            public static final int NFC_COMMUNICATION = 5;
+            
+            private Companion() {
+                super();
+            }
+        }
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0000\n\u0002\u0010\u000e\n\u0002\b\b\b\u0086\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u000f\b\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006j\u0002\b\u0007j\u0002\b\bj\u0002\b\tj\u0002\b\n\u00a8\u0006\u000b"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Event;", "", "codeName", "", "(Ljava/lang/String;ILjava/lang/String;)V", "getCodeName", "()Ljava/lang/String;", "NORMAL", "TEMPERATURE_START", "TEMPERATURE_END", "NFC_COMMUNICATION", "KITDIST_0.1.4_20210526_debug"})
+    public static enum Event {
+        /*public static final*/ NORMAL /* = new NORMAL(null) */,
+        /*public static final*/ TEMPERATURE_START /* = new TEMPERATURE_START(null) */,
+        /*public static final*/ TEMPERATURE_END /* = new TEMPERATURE_END(null) */,
+        /*public static final*/ NFC_COMMUNICATION /* = new NFC_COMMUNICATION(null) */;
+        @org.jetbrains.annotations.NotNull()
+        private final java.lang.String codeName = null;
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String getCodeName() {
+            return null;
+        }
+        
+        Event(java.lang.String codeName) {
+        }
+    }
+    
+    @kotlinx.android.parcel.Parcelize()
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0010\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0087\b\u0018\u00002\u00020\u0001B+\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u0006\u0010\u0006\u001a\u00020\u0005\u0012\f\u0010\u0007\u001a\b\u0012\u0004\u0012\u00020\t0\b\u00a2\u0006\u0002\u0010\nJ\t\u0010\u0012\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u0013\u001a\u00020\u0005H\u00c6\u0003J\t\u0010\u0014\u001a\u00020\u0005H\u00c6\u0003J\u000f\u0010\u0015\u001a\b\u0012\u0004\u0012\u00020\t0\bH\u00c6\u0003J7\u0010\u0016\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u00052\b\b\u0002\u0010\u0006\u001a\u00020\u00052\u000e\b\u0002\u0010\u0007\u001a\b\u0012\u0004\u0012\u00020\t0\bH\u00c6\u0001J\t\u0010\u0017\u001a\u00020\u0005H\u00d6\u0001J\u0013\u0010\u0018\u001a\u00020\u00032\b\u0010\u0019\u001a\u0004\u0018\u00010\u001aH\u00d6\u0003J\t\u0010\u001b\u001a\u00020\u0005H\u00d6\u0001J\t\u0010\u001c\u001a\u00020\u001dH\u00d6\u0001J\u0019\u0010\u001e\u001a\u00020\u001f2\u0006\u0010 \u001a\u00020!2\u0006\u0010\"\u001a\u00020\u0005H\u00d6\u0001R\u0016\u0010\u0004\u001a\u00020\u00058\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\fR\u0016\u0010\u0002\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\r\u0010\u000eR\u001c\u0010\u0007\u001a\b\u0012\u0004\u0012\u00020\t0\b8\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\u0010R\u0016\u0010\u0006\u001a\u00020\u00058\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0011\u0010\f\u00a8\u0006#"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Data;", "Landroid/os/Parcelable;", "hasNext", "", "currentPageIndex", "", "totalPageCount", "logs", "", "Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$DataLog;", "(ZIILjava/util/List;)V", "getCurrentPageIndex", "()I", "getHasNext", "()Z", "getLogs", "()Ljava/util/List;", "getTotalPageCount", "component1", "component2", "component3", "component4", "copy", "describeContents", "equals", "other", "", "hashCode", "toString", "", "writeToParcel", "", "parcel", "Landroid/os/Parcel;", "flags", "KITDIST_0.1.4_20210526_debug"})
+    public static final class Data implements android.os.Parcelable {
+        @com.google.gson.annotations.SerializedName(value = "hasNext")
+        private final boolean hasNext = false;
+        @com.google.gson.annotations.SerializedName(value = "currentPageIndex")
+        private final int currentPageIndex = 0;
+        @com.google.gson.annotations.SerializedName(value = "totalPageCount")
+        private final int totalPageCount = 0;
+        @org.jetbrains.annotations.NotNull()
+        @com.google.gson.annotations.SerializedName(value = "logs")
+        private final java.util.List<kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog> logs = null;
+        public static final android.os.Parcelable.Creator<kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data> CREATOR = null;
+        
+        public final boolean getHasNext() {
+            return false;
+        }
+        
+        public final int getCurrentPageIndex() {
+            return 0;
+        }
+        
+        public final int getTotalPageCount() {
+            return 0;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.util.List<kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog> getLogs() {
+            return null;
+        }
+        
+        public Data(boolean hasNext, int currentPageIndex, int totalPageCount, @org.jetbrains.annotations.NotNull()
+        java.util.List<kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog> logs) {
+            super();
+        }
+        
+        public final boolean component1() {
+            return false;
+        }
+        
+        public final int component2() {
+            return 0;
+        }
+        
+        public final int component3() {
+            return 0;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.util.List<kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog> component4() {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data copy(boolean hasNext, int currentPageIndex, int totalPageCount, @org.jetbrains.annotations.NotNull()
+        java.util.List<kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog> logs) {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        @java.lang.Override()
+        public java.lang.String toString() {
+            return null;
+        }
+        
+        @java.lang.Override()
+        public int hashCode() {
+            return 0;
+        }
+        
+        @java.lang.Override()
+        public boolean equals(@org.jetbrains.annotations.Nullable()
+        java.lang.Object p0) {
+            return false;
+        }
+        
+        @java.lang.Override()
+        public int describeContents() {
+            return 0;
+        }
+        
+        @java.lang.Override()
+        public void writeToParcel(@org.jetbrains.annotations.NotNull()
+        android.os.Parcel parcel, int flags) {
+        }
+        
+        @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 3)
+        public static final class Creator implements android.os.Parcelable.Creator<kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data> {
+            
+            public Creator() {
+                super();
+            }
+            
+            @org.jetbrains.annotations.NotNull()
+            @java.lang.Override()
+            public final kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data[] newArray(int size) {
+                return null;
+            }
+            
+            @org.jetbrains.annotations.NotNull()
+            @java.lang.Override()
+            public final kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data createFromParcel(@org.jetbrains.annotations.NotNull()
+            android.os.Parcel in) {
+                return null;
+            }
+        }
+    }
+    
+    @kotlinx.android.parcel.Parcelize()
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0010\u0007\n\u0002\b\u000b\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0002\b\u0003\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0087\b\u0018\u00002\u00020\u0001B\u001d\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0006\u0010\u0005\u001a\u00020\u0006\u00a2\u0006\u0002\u0010\u0007J\t\u0010\r\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u000e\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\u000f\u001a\u00020\u0006H\u00c6\u0003J\'\u0010\u0010\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u00032\b\b\u0002\u0010\u0005\u001a\u00020\u0006H\u00c6\u0001J\t\u0010\u0011\u001a\u00020\u0012H\u00d6\u0001J\u0013\u0010\u0013\u001a\u00020\u00142\b\u0010\u0015\u001a\u0004\u0018\u00010\u0016H\u00d6\u0003J\t\u0010\u0017\u001a\u00020\u0012H\u00d6\u0001J\t\u0010\u0018\u001a\u00020\u0003H\u00d6\u0001J\u0019\u0010\u0019\u001a\u00020\u001a2\u0006\u0010\u001b\u001a\u00020\u001c2\u0006\u0010\u001d\u001a\u00020\u0012H\u00d6\u0001R\u0016\u0010\u0002\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\b\u0010\tR\u0016\u0010\u0004\u001a\u00020\u00038\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\n\u0010\tR\u0016\u0010\u0005\u001a\u00020\u00068\u0006X\u0087\u0004\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\f\u00a8\u0006\u001e"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$DataLog;", "Landroid/os/Parcelable;", "dateTime", "", "eventCode", "temperature", "", "(Ljava/lang/String;Ljava/lang/String;F)V", "getDateTime", "()Ljava/lang/String;", "getEventCode", "getTemperature", "()F", "component1", "component2", "component3", "copy", "describeContents", "", "equals", "", "other", "", "hashCode", "toString", "writeToParcel", "", "parcel", "Landroid/os/Parcel;", "flags", "KITDIST_0.1.4_20210526_debug"})
+    public static final class DataLog implements android.os.Parcelable {
+        @org.jetbrains.annotations.NotNull()
+        @com.google.gson.annotations.SerializedName(value = "dateTime")
+        private final java.lang.String dateTime = null;
+        @org.jetbrains.annotations.NotNull()
+        @com.google.gson.annotations.SerializedName(value = "eventCode")
+        private final java.lang.String eventCode = null;
+        @com.google.gson.annotations.SerializedName(value = "temperature")
+        private final float temperature = 0.0F;
+        public static final android.os.Parcelable.Creator<kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog> CREATOR = null;
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String getDateTime() {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String getEventCode() {
+            return null;
+        }
+        
+        public final float getTemperature() {
+            return 0.0F;
+        }
+        
+        public DataLog(@org.jetbrains.annotations.NotNull()
+        java.lang.String dateTime, @org.jetbrains.annotations.NotNull()
+        java.lang.String eventCode, float temperature) {
+            super();
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String component1() {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String component2() {
+            return null;
+        }
+        
+        public final float component3() {
+            return 0.0F;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog copy(@org.jetbrains.annotations.NotNull()
+        java.lang.String dateTime, @org.jetbrains.annotations.NotNull()
+        java.lang.String eventCode, float temperature) {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        @java.lang.Override()
+        public java.lang.String toString() {
+            return null;
+        }
+        
+        @java.lang.Override()
+        public int hashCode() {
+            return 0;
+        }
+        
+        @java.lang.Override()
+        public boolean equals(@org.jetbrains.annotations.Nullable()
+        java.lang.Object p0) {
+            return false;
+        }
+        
+        @java.lang.Override()
+        public int describeContents() {
+            return 0;
+        }
+        
+        @java.lang.Override()
+        public void writeToParcel(@org.jetbrains.annotations.NotNull()
+        android.os.Parcel parcel, int flags) {
+        }
+        
+        @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 3)
+        public static final class Creator implements android.os.Parcelable.Creator<kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog> {
+            
+            public Creator() {
+                super();
+            }
+            
+            @org.jetbrains.annotations.NotNull()
+            @java.lang.Override()
+            public final kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog[] newArray(int size) {
+                return null;
+            }
+            
+            @org.jetbrains.annotations.NotNull()
+            @java.lang.Override()
+            public final kr.co.kit.cordova.plugin.nfc.device.BoardADL.DataLog createFromParcel(@org.jetbrains.annotations.NotNull()
+            android.os.Parcel in) {
+                return null;
+            }
+        }
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\b\u0002\b\u0087\u0002\u0018\u0000 \u00022\u00020\u0001:\u0001\u0002B\u0000\u00a8\u0006\u0003"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Status;", "", "Companion", "KITDIST_0.1.4_20210526_debug"})
+    @java.lang.annotation.Retention(value = java.lang.annotation.RetentionPolicy.SOURCE)
+    @kotlin.annotation.Retention(value = kotlin.annotation.AnnotationRetention.SOURCE)
+    public static abstract @interface Status {
+        @org.jetbrains.annotations.NotNull()
+        public static final kr.co.kit.cordova.plugin.nfc.device.BoardADL.Status.Companion Companion = null;
+        public static final int NO_MORE_DATA = 0;
+        public static final int READING_DATA = 1;
+        public static final int FAILED_READ_DATA = 2;
+        public static final int READ_ALL_DATA = 3;
+        public static final int READ_NOT_ALL_DATA = 4;
+        
+        @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0005\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\b\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\t"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Status$Companion;", "", "()V", "FAILED_READ_DATA", "", "NO_MORE_DATA", "READING_DATA", "READ_ALL_DATA", "READ_NOT_ALL_DATA", "KITDIST_0.1.4_20210526_debug"})
+        public static final class Companion {
+            public static final int NO_MORE_DATA = 0;
+            public static final int READING_DATA = 1;
+            public static final int FAILED_READ_DATA = 2;
+            public static final int READ_ALL_DATA = 3;
+            public static final int READ_NOT_ALL_DATA = 4;
+            
+            private Companion() {
+                super();
+            }
+        }
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 3)
+    public final class DefaultImpls {
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000J\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0010\u0005\n\u0000\n\u0002\u0010\u000e\n\u0002\b\f\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u0007\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J@\u0010\r\u001a\u00020\t2\u0006\u0010\u000e\u001a\u00020\u00042\u0006\u0010\u000f\u001a\u00020\u00042\u0006\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u0011\u001a\u00020\u00042\u0006\u0010\u0012\u001a\u00020\u00042\u0006\u0010\u0013\u001a\u00020\u00042\b\b\u0002\u0010\u0014\u001a\u00020\tJ8\u0010\u0015\u001a\u00020\u00162\u0006\u0010\u000e\u001a\u00020\u00042\u0006\u0010\u000f\u001a\u00020\u00042\u0006\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u0011\u001a\u00020\u00042\u0006\u0010\u0012\u001a\u00020\u00042\u0006\u0010\u0013\u001a\u00020\u0004H\u0002J\u000e\u0010\u0017\u001a\u00020\t2\u0006\u0010\u0018\u001a\u00020\u0004J\u000e\u0010\u0019\u001a\u00020\u001a2\u0006\u0010\u001b\u001a\u00020\u0004J\u0012\u0010\u001c\u001a\u00020\t*\u00020\u00042\u0006\u0010\u001d\u001a\u00020\u001eJ\u001d\u0010\u001f\u001a\u00020 *\u00020!2\u0006\u0010\"\u001a\u00020#H\u0086@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010$R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0007X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\b\u001a\u00020\tX\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\tX\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\tX\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\f\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u0082\u0002\u0004\n\u0002\b\u0019\u00a8\u0006%"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Companion;", "", "()V", "CNT_BLOCK_DATA", "", "CNT_READ_NUMBER_BLOCK", "DATA_SENSOR_TYPE_TEMPERATURE", "", "DEFAULT_PATTERN_FORMAT_DATE", "", "DEFAULT_PATTERN_FORMAT_DATE_TIME", "DEFAULT_PATTERN_FORMAT_TIME", "SIZE_DATA_SENSOR_TEMPERATURE", "formattedDateTime", "year", "month", "day", "dayOfHour", "minute", "second", "pattern", "getDateTime", "Lorg/threeten/bp/LocalDateTime;", "getEventCodeName", "eventId", "getTemperature", "", "temperatureADC", "getMessage", "context", "Landroid/content/Context;", "writeNdefMessage", "", "Landroid/nfc/NdefMessage;", "tag", "Landroid/nfc/Tag;", "(Landroid/nfc/NdefMessage;Landroid/nfc/Tag;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "KITDIST_0.1.4_20210526_debug"})
+    public static final class Companion {
+        private static final java.lang.String DEFAULT_PATTERN_FORMAT_TIME = "HH:mm:ss";
+        private static final java.lang.String DEFAULT_PATTERN_FORMAT_DATE = "yyyy-MM-dd";
+        private static final java.lang.String DEFAULT_PATTERN_FORMAT_DATE_TIME = "yyyy-MM-dd HH:mm:ss";
+        public static final byte DATA_SENSOR_TYPE_TEMPERATURE = (byte)8;
+        public static final int SIZE_DATA_SENSOR_TEMPERATURE = 8;
+        public static final int CNT_BLOCK_DATA = 128;
+        public static final int CNT_READ_NUMBER_BLOCK = 7;
+        
+        @org.jetbrains.annotations.Nullable()
+        @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+        public final java.lang.Object writeNdefMessage(@org.jetbrains.annotations.NotNull()
+        android.nfc.NdefMessage $this$writeNdefMessage, @org.jetbrains.annotations.NotNull()
+        android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+        kotlin.coroutines.Continuation<? super kotlin.Unit> p2) {
+            return null;
+        }
+        
+        public final float getTemperature(int temperatureADC) {
+            return 0.0F;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String getEventCodeName(@kr.co.kit.cordova.plugin.nfc.device.BoardADL.EventId()
+        int eventId) {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String formattedDateTime(int year, int month, int day, int dayOfHour, int minute, int second, @org.jetbrains.annotations.NotNull()
+        java.lang.String pattern) {
+            return null;
+        }
+        
+        private final org.threeten.bp.LocalDateTime getDateTime(int year, int month, int day, int dayOfHour, int minute, int second) {
+            return null;
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String getMessage(@kr.co.kit.cordova.plugin.nfc.device.BoardADL.Status()
+        int $this$getMessage, @org.jetbrains.annotations.NotNull()
+        android.content.Context context) throws java.lang.IllegalArgumentException {
+            return null;
+        }
+        
+        private Companion() {
+            super();
+        }
+    }
+}

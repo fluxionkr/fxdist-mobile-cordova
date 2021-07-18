@@ -13,31 +13,31 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"Navigation\"><param name=\"android-package\" value=\"kr.co.aiblab.cordova.plugin.navigation\" /></feature>",
+              "xml": "<feature name=\"Navigation\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.navigation\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"NFC\"><param name=\"android-package\" value=\"kr.co.aiblab.cordova.plugin.nfc\" /></feature>",
+              "xml": "<feature name=\"NFC\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.nfc\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"SignPad\"><param name=\"android-package\" value=\"kr.co.aiblab.cordova.plugin.signpad\" /></feature>",
+              "xml": "<feature name=\"SignPad\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.signpad\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Location\"><param name=\"android-package\" value=\"kr.co.aiblab.cordova.plugin.location\" /></feature>",
+              "xml": "<feature name=\"Location\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.location\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"kr.co.aiblab.cordova.plugin.camera\" /></feature>",
+              "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.camera\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Barcode\"><param name=\"android-package\" value=\"kr.co.aiblab.cordova.plugin.barcode\" /></feature>",
+              "xml": "<feature name=\"Barcode\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.barcode\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Auth\"><param name=\"android-package\" value=\"kr.co.aiblab.cordova.plugin.auth\" /></feature>",
+              "xml": "<feature name=\"Auth\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.auth\" /></feature>",
               "count": 1
             }
           ]
@@ -52,84 +52,84 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     },
-    "kr.co.aiblab.cordova.plugin.navigation": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+    "kr.co.kit.cordova.plugin.navigation": {
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     },
-    "kr.co.aiblab.cordova.plugin.nfc": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+    "kr.co.kit.cordova.plugin.nfc": {
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     },
-    "kr.co.aiblab.cordova.plugin.signpad": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+    "kr.co.kit.cordova.plugin.signpad": {
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     },
-    "kr.co.aiblab.cordova.plugin.location": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+    "kr.co.kit.cordova.plugin.location": {
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     },
-    "kr.co.aiblab.cordova.plugin.camera": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+    "kr.co.kit.cordova.plugin.camera": {
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     },
-    "kr.co.aiblab.cordova.plugin.barcode": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+    "kr.co.kit.cordova.plugin.barcode": {
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     },
-    "kr.co.aiblab.cordova.plugin.auth": {
-      "PACKAGE_NAME": "kr.co.aiblab.cordova"
+    "kr.co.kit.cordova.plugin.auth": {
+      "PACKAGE_NAME": "kr.co.kit.cordova"
     }
   },
   "dependent_plugins": {},
   "modules": [
     {
-      "id": "kr.co.aiblab.cordova.plugin.navigation.Navigation",
-      "file": "plugins/kr.co.aiblab.plugin.navigation/www/Navigation.js",
-      "pluginId": "kr.co.aiblab.cordova.plugin.navigation",
+      "id": "kr.co.kit.cordova.plugin.navigation.Navigation",
+      "file": "plugins/kr.co.kit.plugin.navigation/www/Navigation.js",
+      "pluginId": "kr.co.kit.cordova.plugin.navigation",
       "clobbers": [
         "cordova.plugins.Navigation"
       ]
     },
     {
-      "id": "kr.co.aiblab.cordova.plugin.nfc.NFC",
-      "file": "plugins/kr.co.aiblab.plugin.nfg/www/NFC.js",
-      "pluginId": "kr.co.aiblab.cordova.plugin.nfc",
+      "id": "kr.co.kit.cordova.plugin.nfc.NFC",
+      "file": "plugins/kr.co.kit.plugin.nfg/www/NFC.js",
+      "pluginId": "kr.co.kit.cordova.plugin.nfc",
       "clobbers": [
         "cordova.plugins.NFC"
       ]
     },
     {
-      "id": "kr.co.aiblab.cordova.plugin.signpad.SignPad",
-      "file": "plugins/kr.co.aiblab.plugin.signpad/www/SignPad.js",
-      "pluginId": "kr.co.aiblab.cordova.plugin.signpad",
+      "id": "kr.co.kit.cordova.plugin.signpad.SignPad",
+      "file": "plugins/kr.co.kit.plugin.signpad/www/SignPad.js",
+      "pluginId": "kr.co.kit.cordova.plugin.signpad",
       "clobbers": [
         "cordova.plugins.SignPad"
       ]
     },
     {
-      "id": "kr.co.aiblab.cordova.plugin.location.Location",
-      "file": "plugins/kr.co.aiblab.plugin.location/www/Location.js",
-      "pluginId": "kr.co.aiblab.cordova.plugin.signpad",
+      "id": "kr.co.kit.cordova.plugin.location.Location",
+      "file": "plugins/kr.co.kit.plugin.location/www/Location.js",
+      "pluginId": "kr.co.kit.cordova.plugin.signpad",
       "clobbers": [
         "cordova.plugins.Location"
       ]
     },
     {
-      "id": "kr.co.aiblab.cordova.plugin.camera.Camera",
-      "file": "plugins/kr.co.aiblab.plugin.camera/www/Camera.js",
-      "pluginId": "kr.co.aiblab.cordova.plugin.camera",
+      "id": "kr.co.kit.cordova.plugin.camera.Camera",
+      "file": "plugins/kr.co.kit.plugin.camera/www/Camera.js",
+      "pluginId": "kr.co.kit.cordova.plugin.camera",
       "clobbers": [
         "cordova.plugins.Camera"
       ]
     },
     {
-      "id": "kr.co.aiblab.cordova.plugin.barcode.Barcode",
-      "file": "plugins/kr.co.aiblab.plugin.barcode/www/Barcode.js",
-      "pluginId": "kr.co.aiblab.cordova.plugin.barcode",
+      "id": "kr.co.kit.cordova.plugin.barcode.Barcode",
+      "file": "plugins/kr.co.kit.plugin.barcode/www/Barcode.js",
+      "pluginId": "kr.co.kit.cordova.plugin.barcode",
       "clobbers": [
         "cordova.plugins.Barcode"
       ]
     },
     {
-      "id": "kr.co.aiblab.cordova.plugin.auth.Auth",
-      "file": "plugins/kr.co.aiblab.plugin.auth/www/Auth.js",
-      "pluginId": "kr.co.aiblab.cordova.plugin.auth",
+      "id": "kr.co.kit.cordova.plugin.auth.Auth",
+      "file": "plugins/kr.co.kit.plugin.auth/www/Auth.js",
+      "pluginId": "kr.co.kit.cordova.plugin.auth",
       "clobbers": [
         "cordova.plugins.Auth"
       ]
@@ -137,12 +137,12 @@
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.4",
-    "kr.co.aiblab.cordova.plugin.navigation": "1.0.0",
-    "kr.co.aiblab.cordova.plugin.nfc": "1.0.0",
-    "kr.co.aiblab.cordova.plugin.signpad": "1.0.0",
-    "kr.co.aiblab.cordova.plugin.location": "1.0.0",
-    "kr.co.aiblab.cordova.plugin.camera": "1.0.0",
-    "kr.co.aiblab.cordova.plugin.barcode": "1.0.0",
-    "kr.co.aiblab.cordova.plugin.auth": "1.0.0"
+    "kr.co.kit.cordova.plugin.navigation": "1.0.0",
+    "kr.co.kit.cordova.plugin.nfc": "1.0.0",
+    "kr.co.kit.cordova.plugin.signpad": "1.0.0",
+    "kr.co.kit.cordova.plugin.location": "1.0.0",
+    "kr.co.kit.cordova.plugin.camera": "1.0.0",
+    "kr.co.kit.cordova.plugin.barcode": "1.0.0",
+    "kr.co.kit.cordova.plugin.auth": "1.0.0"
   }
 }

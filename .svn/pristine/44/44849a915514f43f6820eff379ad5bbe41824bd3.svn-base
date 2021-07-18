@@ -1,0 +1,4 @@
+package kr.co.kit.kitdist;
+
+@androidx.databinding.BindingBuildInfo
+public class DataBindingTriggerClass {}

@@ -1,0 +1,64 @@
+package kr.co.kit.kitdist.ui
+
+import android.os.Bundle
+import android.os.Parcelable
+import androidx.navigation.ActionOnlyNavDirections
+import androidx.navigation.NavDirections
+import java.io.Serializable
+import java.lang.UnsupportedOperationException
+import kotlin.Int
+import kotlin.String
+import kotlin.Suppress
+import kr.co.kit.kitdist.R
+import kr.co.kit.kitdist.`data`.UserData
+
+public class SplashFragmentDirections private constructor() {
+  private data class ActionSplashToMain(
+    public val userData: UserData
+  ) : NavDirections {
+    public override fun getActionId(): Int = R.id.action_splash_to_main
+
+    @Suppress("CAST_NEVER_SUCCEEDS")
+    public override fun getArguments(): Bundle {
+      val result = Bundle()
+      if (Parcelable::class.java.isAssignableFrom(UserData::class.java)) {
+        result.putParcelable("userData", this.userData as Parcelable)
+      } else if (Serializable::class.java.isAssignableFrom(UserData::class.java)) {
+        result.putSerializable("userData", this.userData as Serializable)
+      } else {
+        throw UnsupportedOperationException(UserData::class.java.name +
+            " must implement Parcelable or Serializable or must be an Enum.")
+      }
+      return result
+    }
+  }
+
+  private data class ActionOpenDialog(
+    public val id: Int = 100,
+    public val title: String?,
+    public val message: String
+  ) : NavDirections {
+    public override fun getActionId(): Int = R.id.action_open_dialog
+
+    public override fun getArguments(): Bundle {
+      val result = Bundle()
+      result.putInt("id", this.id)
+      result.putString("title", this.title)
+      result.putString("message", this.message)
+      return result
+    }
+  }
+
+  public companion object {
+    public fun actionSplashToLogin(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_splash_to_login)
+
+    public fun actionSplashToMain(userData: UserData): NavDirections = ActionSplashToMain(userData)
+
+    public fun actionOpenDialog(
+      id: Int = 100,
+      title: String?,
+      message: String
+    ): NavDirections = ActionOpenDialog(id, title, message)
+  }
+}

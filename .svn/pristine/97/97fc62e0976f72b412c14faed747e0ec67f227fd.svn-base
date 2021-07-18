@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kitdist.iml" filepath="$PROJECT_DIR$/.idea/modules/Kitdist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordovaLibExt/Kitdist.cordovaLibExt.iml" filepath="$PROJECT_DIR$/.idea/modules/cordovaLibExt/Kitdist.cordovaLibExt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kitdist/Kitdist.kitdist.iml" filepath="$PROJECT_DIR$/.idea/modules/kitdist/Kitdist.kitdist.iml" />
+    </modules>
+  </component>
+</project>

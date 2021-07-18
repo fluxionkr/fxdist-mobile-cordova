@@ -1,0 +1,15 @@
+package com.github.gcacace.signaturepad;
+
+public class BR {
+  public static final int _all = 0;
+
+  public static final int cancelButtonClickListener = 1;
+
+  public static final int cancelClickListener = 2;
+
+  public static final int confirmClickListener = 3;
+
+  public static final int loginClickListener = 4;
+
+  public static final int viewModel = 5;
+}

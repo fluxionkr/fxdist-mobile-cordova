@@ -1,0 +1,95 @@
+package kr.co.kit.kitdist.utils;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u00008\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\r\u0018\u0000  2\u00020\u0001:\u0001 B\u000f\b\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u0006\u0010\u000b\u001a\u00020\fJ\u0006\u0010\r\u001a\u00020\fJ\u0006\u0010\u000e\u001a\u00020\u000fJ\u0006\u0010\u0010\u001a\u00020\u0011J\u0006\u0010\u0012\u001a\u00020\u0011J\u0012\u0010\u0013\u001a\u000e\u0012\u0004\u0012\u00020\u0011\u0012\u0004\u0012\u00020\u00110\u0014J\u0006\u0010\u0015\u001a\u00020\u0011J\u0006\u0010\u0016\u001a\u00020\u0011J\u0006\u0010\u0017\u001a\u00020\u0011J\u000e\u0010\u0018\u001a\u00020\f2\u0006\u0010\u0019\u001a\u00020\u000fJ.\u0010\u001a\u001a\u00020\f2\u0006\u0010\u001b\u001a\u00020\u00112\u0006\u0010\u001c\u001a\u00020\u00112\u0006\u0010\u001d\u001a\u00020\u00112\u0006\u0010\u001e\u001a\u00020\u00112\u0006\u0010\u001f\u001a\u00020\u0011R\u001b\u0010\u0005\u001a\u00020\u00068BX\u0082\u0084\u0002\u00a2\u0006\f\n\u0004\b\t\u0010\n\u001a\u0004\b\u0007\u0010\b\u00a8\u0006!"}, d2 = {"Lkr/co/kit/kitdist/utils/UserDataPrefHelper;", "", "context", "Landroid/content/Context;", "(Landroid/content/Context;)V", "prefs", "Landroid/content/SharedPreferences;", "getPrefs", "()Landroid/content/SharedPreferences;", "prefs$delegate", "Lkotlin/Lazy;", "clearLoginData", "", "clearUserInfo", "getLoginData", "Lkr/co/kit/kitdist/data/LoginData;", "getUserDiv", "", "getUserId", "getUserInfo", "Lkotlin/Pair;", "getUserKey", "getUserMMCMId", "getUserName", "putLoginData", "loginData", "putUserInfo", "userId", "userKey", "userName", "userDiv", "mmcmId", "Companion", "KITDIST_0.1.4_20210328_release"})
+public final class UserDataPrefHelper {
+    private final kotlin.Lazy prefs$delegate = null;
+    private static final java.lang.String PREF_FILE_NAME = ".prefs_user_data";
+    private static final java.lang.String PREF_KEY_LOGIN_USER_ID = "login_user_id";
+    private static final java.lang.String PREF_KEY_LOGIN_USER_KEY = "login_user_key";
+    private static final java.lang.String PREF_KEY_LOGIN_USER_NAME = "login_user_name";
+    private static final java.lang.String PREF_KEY_LOGIN_USER_DIV = "login_user_division";
+    private static final java.lang.String PREF_KEY_LOGIN_USER_MMCM_IC = "login_user_mmcm_id";
+    private static final java.lang.String PREF_KEY_LOGIN_INFO_USER_ID = "login_info_id";
+    private static final java.lang.String PREF_KEY_LOGIN_INFO_PASSWORD = "login_info_password";
+    private static final java.lang.String PREF_KEY_LOGIN_INFO_AUTO_LOGIN = "login_info_auto_login";
+    private static volatile kr.co.kit.kitdist.utils.UserDataPrefHelper instance;
+    @org.jetbrains.annotations.NotNull()
+    public static final kr.co.kit.kitdist.utils.UserDataPrefHelper.Companion Companion = null;
+    
+    private final android.content.SharedPreferences getPrefs() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final kr.co.kit.kitdist.data.LoginData getLoginData() {
+        return null;
+    }
+    
+    public final void putLoginData(@org.jetbrains.annotations.NotNull()
+    kr.co.kit.kitdist.data.LoginData loginData) {
+    }
+    
+    public final void putUserInfo(@org.jetbrains.annotations.NotNull()
+    java.lang.String userId, @org.jetbrains.annotations.NotNull()
+    java.lang.String userKey, @org.jetbrains.annotations.NotNull()
+    java.lang.String userName, @org.jetbrains.annotations.NotNull()
+    java.lang.String userDiv, @org.jetbrains.annotations.NotNull()
+    java.lang.String mmcmId) {
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final java.lang.String getUserId() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final java.lang.String getUserKey() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final java.lang.String getUserName() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final java.lang.String getUserDiv() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final java.lang.String getUserMMCMId() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final kotlin.Pair<java.lang.String, java.lang.String> getUserInfo() {
+        return null;
+    }
+    
+    public final void clearUserInfo() {
+    }
+    
+    public final void clearLoginData() {
+    }
+    
+    private UserDataPrefHelper(android.content.Context context) {
+        super();
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\t\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J\u000e\u0010\u000f\u001a\u00020\u000e2\u0006\u0010\u0010\u001a\u00020\u0011R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\b\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\f\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u0010\u0010\r\u001a\u0004\u0018\u00010\u000eX\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0012"}, d2 = {"Lkr/co/kit/kitdist/utils/UserDataPrefHelper$Companion;", "", "()V", "PREF_FILE_NAME", "", "PREF_KEY_LOGIN_INFO_AUTO_LOGIN", "PREF_KEY_LOGIN_INFO_PASSWORD", "PREF_KEY_LOGIN_INFO_USER_ID", "PREF_KEY_LOGIN_USER_DIV", "PREF_KEY_LOGIN_USER_ID", "PREF_KEY_LOGIN_USER_KEY", "PREF_KEY_LOGIN_USER_MMCM_IC", "PREF_KEY_LOGIN_USER_NAME", "instance", "Lkr/co/kit/kitdist/utils/UserDataPrefHelper;", "getInstance", "context", "Landroid/content/Context;", "KITDIST_0.1.4_20210328_release"})
+    public static final class Companion {
+        
+        @org.jetbrains.annotations.NotNull()
+        public final kr.co.kit.kitdist.utils.UserDataPrefHelper getInstance(@org.jetbrains.annotations.NotNull()
+        android.content.Context context) {
+            return null;
+        }
+        
+        private Companion() {
+            super();
+        }
+    }
+}

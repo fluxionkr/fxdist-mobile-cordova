@@ -1,0 +1,46 @@
+package kr.co.kit.kitdist.ui;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0011\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0006\u0010\u000e\u001a\u00020\u000fJ\b\u0010\u0010\u001a\u00020\u0011H\u0014J\u0012\u0010\u0012\u001a\u00020\u00112\b\u0010\u0013\u001a\u0004\u0018\u00010\u0014H\u0016J\u001a\u0010\u0015\u001a\u00020\u00112\u0006\u0010\u0016\u001a\u00020\u00172\b\u0010\u0013\u001a\u0004\u0018\u00010\u0014H\u0016J\b\u0010\u0018\u001a\u00020\u0011H\u0002J\b\u0010\u0019\u001a\u00020\u0011H\u0002R\u001b\u0010\u0003\u001a\u00020\u00048BX\u0082\u0084\u0002\u00a2\u0006\f\n\u0004\b\u0007\u0010\b\u001a\u0004\b\u0005\u0010\u0006R\u0016\u0010\t\u001a\b\u0012\u0004\u0012\u00020\u000b0\n8\u0002X\u0083\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\f\u001a\u000e\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u000b0\r0\nX\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u001a"}, d2 = {"Lkr/co/kit/kitdist/ui/MainFragment;", "Lorg/apache/cordova/CordovaFragment;", "()V", "args", "Lkr/co/kit/kitdist/ui/MainFragmentArgs;", "getArgs", "()Lkr/co/kit/kitdist/ui/MainFragmentArgs;", "args$delegate", "Landroidx/navigation/NavArgsLazy;", "requestBackgroundLocationPermissionLauncher", "Landroidx/activity/result/ActivityResultLauncher;", "", "requestLocationPermissionsLauncher", "", "getUserData", "Lkr/co/kit/kitdist/data/UserData;", "init", "", "onCreate", "savedInstanceState", "Landroid/os/Bundle;", "onViewCreated", "view", "Landroid/view/View;", "startLocationForegroundService", "startLocationService", "KITDIST_0.1.4_20210328_release"})
+public final class MainFragment extends org.apache.cordova.CordovaFragment {
+    private final androidx.navigation.NavArgsLazy args$delegate = null;
+    private final androidx.activity.result.ActivityResultLauncher<java.lang.String[]> requestLocationPermissionsLauncher = null;
+    @androidx.annotation.RequiresApi(value = android.os.Build.VERSION_CODES.Q)
+    private final androidx.activity.result.ActivityResultLauncher<java.lang.String> requestBackgroundLocationPermissionLauncher = null;
+    private java.util.HashMap _$_findViewCache;
+    
+    private final kr.co.kit.kitdist.ui.MainFragmentArgs getArgs() {
+        return null;
+    }
+    
+    @java.lang.Override()
+    protected void init() {
+    }
+    
+    @java.lang.Override()
+    public void onCreate(@org.jetbrains.annotations.Nullable()
+    android.os.Bundle savedInstanceState) {
+    }
+    
+    @java.lang.Override()
+    public void onViewCreated(@org.jetbrains.annotations.NotNull()
+    android.view.View view, @org.jetbrains.annotations.Nullable()
+    android.os.Bundle savedInstanceState) {
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final kr.co.kit.kitdist.data.UserData getUserData() {
+        return null;
+    }
+    
+    private final void startLocationService() {
+    }
+    
+    private final void startLocationForegroundService() {
+    }
+    
+    public MainFragment() {
+        super();
+    }
+}

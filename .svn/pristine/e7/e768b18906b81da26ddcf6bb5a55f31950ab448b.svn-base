@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_dialog_nfc.xml",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_dialog_nfc.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_nfc_tag.xml",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\activity_nfc_tag.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_dialog_signpad.xml",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_dialog_signpad.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_login.xml"
+    }
+]

@@ -1,0 +1,51 @@
+package kr.co.kit.cordova.plugin.nfc
+
+import android.os.Bundle
+import androidx.navigation.NavArgs
+import java.lang.IllegalArgumentException
+import kotlin.Int
+import kotlin.String
+import kotlin.jvm.JvmStatic
+
+public data class NFCTagDialogFragmentArgs(
+  public val tagType: String,
+  public val currentPageIndex: Int = 1,
+  public val totalPageCount: Int = 0
+) : NavArgs {
+  public fun toBundle(): Bundle {
+    val result = Bundle()
+    result.putString("tagType", this.tagType)
+    result.putInt("currentPageIndex", this.currentPageIndex)
+    result.putInt("totalPageCount", this.totalPageCount)
+    return result
+  }
+
+  public companion object {
+    @JvmStatic
+    public fun fromBundle(bundle: Bundle): NFCTagDialogFragmentArgs {
+      bundle.setClassLoader(NFCTagDialogFragmentArgs::class.java.classLoader)
+      val __tagType : String?
+      if (bundle.containsKey("tagType")) {
+        __tagType = bundle.getString("tagType")
+        if (__tagType == null) {
+          throw IllegalArgumentException("Argument \"tagType\" is marked as non-null but was passed a null value.")
+        }
+      } else {
+        throw IllegalArgumentException("Required argument \"tagType\" is missing and does not have an android:defaultValue")
+      }
+      val __currentPageIndex : Int
+      if (bundle.containsKey("currentPageIndex")) {
+        __currentPageIndex = bundle.getInt("currentPageIndex")
+      } else {
+        __currentPageIndex = 1
+      }
+      val __totalPageCount : Int
+      if (bundle.containsKey("totalPageCount")) {
+        __totalPageCount = bundle.getInt("totalPageCount")
+      } else {
+        __totalPageCount = 0
+      }
+      return NFCTagDialogFragmentArgs(__tagType, __currentPageIndex, __totalPageCount)
+    }
+  }
+}

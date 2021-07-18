@@ -1,0 +1,193 @@
+package kr.co.kit.kitdist.databinding;
+import kr.co.kit.kitdist.R;
+import kr.co.kit.kitdist.BR;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import android.view.View;
+@SuppressWarnings("unchecked")
+public class FragmentLoginBindingImpl extends FragmentLoginBinding  {
+
+    @Nullable
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    @Nullable
+    private static final android.util.SparseIntArray sViewsWithIds;
+    static {
+        sIncludes = null;
+        sViewsWithIds = new android.util.SparseIntArray();
+        sViewsWithIds.put(R.id.vg_id_card, 5);
+        sViewsWithIds.put(R.id.aiv_bi, 6);
+        sViewsWithIds.put(R.id.vg_login_input, 7);
+        sViewsWithIds.put(R.id.atv_user_id_label, 8);
+        sViewsWithIds.put(R.id.atv_password_label, 9);
+    }
+    // views
+    @NonNull
+    private final androidx.core.widget.NestedScrollView mboundView0;
+    // variables
+    // values
+    // listeners
+    // Inverse Binding Event Handlers
+
+    public FragmentLoginBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 10, sIncludes, sViewsWithIds));
+    }
+    private FragmentLoginBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+        super(bindingComponent, root, 1
+            , (androidx.appcompat.widget.AppCompatButton) bindings[4]
+            , (androidx.appcompat.widget.AppCompatEditText) bindings[2]
+            , (androidx.appcompat.widget.AppCompatEditText) bindings[1]
+            , (androidx.appcompat.widget.AppCompatImageView) bindings[6]
+            , (androidx.appcompat.widget.AppCompatTextView) bindings[9]
+            , (androidx.appcompat.widget.AppCompatTextView) bindings[8]
+            , (com.google.android.material.checkbox.MaterialCheckBox) bindings[3]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[5]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[7]
+            );
+        this.abtnLogin.setTag(null);
+        this.aetPassword.setTag(null);
+        this.aetUserId.setTag(null);
+        this.cbLoginAutomatically.setTag(null);
+        this.mboundView0 = (androidx.core.widget.NestedScrollView) bindings[0];
+        this.mboundView0.setTag(null);
+        setRootTag(root);
+        // listeners
+        invalidateAll();
+    }
+
+    @Override
+    public void invalidateAll() {
+        synchronized(this) {
+                mDirtyFlags = 0x8L;
+        }
+        requestRebind();
+    }
+
+    @Override
+    public boolean hasPendingBindings() {
+        synchronized(this) {
+            if (mDirtyFlags != 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public boolean setVariable(int variableId, @Nullable Object variable)  {
+        boolean variableSet = true;
+        if (BR.viewModel == variableId) {
+            setViewModel((kr.co.kit.kitdist.viewmodels.LoginViewModel) variable);
+        }
+        else if (BR.loginClickListener == variableId) {
+            setLoginClickListener((android.view.View.OnClickListener) variable);
+        }
+        else {
+            variableSet = false;
+        }
+            return variableSet;
+    }
+
+    public void setViewModel(@Nullable kr.co.kit.kitdist.viewmodels.LoginViewModel ViewModel) {
+        this.mViewModel = ViewModel;
+        synchronized(this) {
+            mDirtyFlags |= 0x2L;
+        }
+        notifyPropertyChanged(BR.viewModel);
+        super.requestRebind();
+    }
+    public void setLoginClickListener(@Nullable android.view.View.OnClickListener LoginClickListener) {
+        this.mLoginClickListener = LoginClickListener;
+        synchronized(this) {
+            mDirtyFlags |= 0x4L;
+        }
+        notifyPropertyChanged(BR.loginClickListener);
+        super.requestRebind();
+    }
+
+    @Override
+    protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
+        switch (localFieldId) {
+            case 0 :
+                return onChangeViewModelLoginData((androidx.lifecycle.LiveData<kr.co.kit.kitdist.data.LoginData>) object, fieldId);
+        }
+        return false;
+    }
+    private boolean onChangeViewModelLoginData(androidx.lifecycle.LiveData<kr.co.kit.kitdist.data.LoginData> ViewModelLoginData, int fieldId) {
+        if (fieldId == BR._all) {
+            synchronized(this) {
+                    mDirtyFlags |= 0x1L;
+            }
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    protected void executeBindings() {
+        long dirtyFlags = 0;
+        synchronized(this) {
+            dirtyFlags = mDirtyFlags;
+            mDirtyFlags = 0;
+        }
+        boolean viewModelLoginDataIsAutoLogin = false;
+        androidx.lifecycle.LiveData<kr.co.kit.kitdist.data.LoginData> viewModelLoginData = null;
+        kr.co.kit.kitdist.data.LoginData viewModelLoginDataGetValue = null;
+        java.lang.String viewModelLoginDataUserId = null;
+        kr.co.kit.kitdist.viewmodels.LoginViewModel viewModel = mViewModel;
+        android.view.View.OnClickListener loginClickListener = mLoginClickListener;
+        java.lang.String viewModelLoginDataPassword = null;
+
+        if ((dirtyFlags & 0xbL) != 0) {
+
+
+
+                if (viewModel != null) {
+                    // read viewModel.loginData
+                    viewModelLoginData = viewModel.getLoginData();
+                }
+                updateLiveDataRegistration(0, viewModelLoginData);
+
+
+                if (viewModelLoginData != null) {
+                    // read viewModel.loginData.getValue()
+                    viewModelLoginDataGetValue = viewModelLoginData.getValue();
+                }
+
+
+                if (viewModelLoginDataGetValue != null) {
+                    // read viewModel.loginData.getValue().isAutoLogin
+                    viewModelLoginDataIsAutoLogin = viewModelLoginDataGetValue.isAutoLogin();
+                    // read viewModel.loginData.getValue().userId
+                    viewModelLoginDataUserId = viewModelLoginDataGetValue.getUserId();
+                    // read viewModel.loginData.getValue().password
+                    viewModelLoginDataPassword = viewModelLoginDataGetValue.getPassword();
+                }
+        }
+        if ((dirtyFlags & 0xcL) != 0) {
+        }
+        // batch finished
+        if ((dirtyFlags & 0xcL) != 0) {
+            // api target 1
+
+            this.abtnLogin.setOnClickListener(loginClickListener);
+        }
+        if ((dirtyFlags & 0xbL) != 0) {
+            // api target 1
+
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.aetPassword, viewModelLoginDataPassword);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.aetUserId, viewModelLoginDataUserId);
+            androidx.databinding.adapters.CompoundButtonBindingAdapter.setChecked(this.cbLoginAutomatically, viewModelLoginDataIsAutoLogin);
+        }
+    }
+    // Listener Stub Implementations
+    // callback impls
+    // dirty flag
+    private  long mDirtyFlags = 0xffffffffffffffffL;
+    /* flag mapping
+        flag 0 (0x1L): viewModel.loginData
+        flag 1 (0x2L): viewModel
+        flag 2 (0x3L): loginClickListener
+        flag 3 (0x4L): null
+    flag mapping end*/
+    //end
+}

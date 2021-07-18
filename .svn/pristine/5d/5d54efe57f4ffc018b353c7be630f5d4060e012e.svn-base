@@ -1,0 +1,37 @@
+package kr.co.kit.kitdist.ui
+
+import android.os.Bundle
+import android.os.Parcelable
+import androidx.navigation.NavDirections
+import java.io.Serializable
+import java.lang.UnsupportedOperationException
+import kotlin.Int
+import kotlin.Suppress
+import kr.co.kit.kitdist.R
+import kr.co.kit.kitdist.`data`.UserData
+
+public class LoginFragmentDirections private constructor() {
+  private data class ActionLoginToMain(
+    public val userData: UserData
+  ) : NavDirections {
+    public override fun getActionId(): Int = R.id.action_login_to_main
+
+    @Suppress("CAST_NEVER_SUCCEEDS")
+    public override fun getArguments(): Bundle {
+      val result = Bundle()
+      if (Parcelable::class.java.isAssignableFrom(UserData::class.java)) {
+        result.putParcelable("userData", this.userData as Parcelable)
+      } else if (Serializable::class.java.isAssignableFrom(UserData::class.java)) {
+        result.putSerializable("userData", this.userData as Serializable)
+      } else {
+        throw UnsupportedOperationException(UserData::class.java.name +
+            " must implement Parcelable or Serializable or must be an Enum.")
+      }
+      return result
+    }
+  }
+
+  public companion object {
+    public fun actionLoginToMain(userData: UserData): NavDirections = ActionLoginToMain(userData)
+  }
+}

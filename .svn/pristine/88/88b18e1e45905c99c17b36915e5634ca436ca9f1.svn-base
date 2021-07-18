@@ -1,0 +1,46 @@
+org/apache/cordova/whitelist/WhitelistPlugin.java
+ org.apache.cordova.whitelist.WhitelistPlugin
+ org.apache.cordova.whitelist.WhitelistPlugin$1
+ org.apache.cordova.whitelist.WhitelistPlugin$CustomConfigXmlParser
+kr/co/kit/kitdist/databinding/ActivityNfcTagBinding.java
+ kr.co.kit.kitdist.databinding.ActivityNfcTagBinding
+kr/co/kit/kitdist/databinding/FragmentDialogSignpadBinding.java
+ kr.co.kit.kitdist.databinding.FragmentDialogSignpadBinding
+kr/co/kit/kitdist/databinding/FragmentSplashBindingImpl.java
+ kr.co.kit.kitdist.databinding.FragmentSplashBindingImpl
+kr/co/kit/kitdist/DataBindingTriggerClass.java
+ kr.co.kit.kitdist.DataBindingTriggerClass
+com/github/gcacace/signaturepad/BR.java
+ com.github.gcacace.signaturepad.BR
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+kr/co/kit/cordova/plugin/nfc/FeliCaLiteTag.java
+ kr.co.kit.cordova.plugin.nfc.FeliCaLiteTag
+ kr.co.kit.cordova.plugin.nfc.FeliCaLiteTag$SizeOverflowException
+ kr.co.kit.cordova.plugin.nfc.FeliCaLiteTag$UnsupportTagException
+kr/co/kit/kitdist/DataBinderMapperImpl.java
+ kr.co.kit.kitdist.DataBinderMapperImpl
+ kr.co.kit.kitdist.DataBinderMapperImpl$InnerBrLookup
+ kr.co.kit.kitdist.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+kr/co/kit/kitdist/databinding/FragmentDialogSignpadBindingImpl.java
+ kr.co.kit.kitdist.databinding.FragmentDialogSignpadBindingImpl
+kr/co/kit/kitdist/BuildConfig.java
+ kr.co.kit.kitdist.BuildConfig
+kr/co/kit/kitdist/databinding/FragmentLoginBinding.java
+ kr.co.kit.kitdist.databinding.FragmentLoginBinding
+kr/co/kit/kitdist/databinding/FragmentDialogNfcBindingImpl.java
+ kr.co.kit.kitdist.databinding.FragmentDialogNfcBindingImpl
+kr/co/kit/kitdist/databinding/FragmentDialogNfcBinding.java
+ kr.co.kit.kitdist.databinding.FragmentDialogNfcBinding
+kr/co/kit/kitdist/BR.java
+ kr.co.kit.kitdist.BR
+kr/co/kit/kitdist/databinding/FragmentLoginBindingImpl.java
+ kr.co.kit.kitdist.databinding.FragmentLoginBindingImpl
+kr/co/kit/kitdist/databinding/ActivityNfcTagBindingImpl.java
+ kr.co.kit.kitdist.databinding.ActivityNfcTagBindingImpl
+kr/co/kit/kitdist/databinding/FragmentSplashBinding.java
+ kr.co.kit.kitdist.databinding.FragmentSplashBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

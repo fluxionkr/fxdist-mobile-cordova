@@ -1,0 +1,85 @@
+package kr.co.kit.kitdist.ui
+
+import android.os.Bundle
+import androidx.navigation.NavArgs
+import java.lang.IllegalArgumentException
+import kotlin.Boolean
+import kotlin.Int
+import kotlin.String
+import kotlin.jvm.JvmStatic
+
+public data class ConfirmDialogFragmentArgs(
+  public val id: Int = 100,
+  public val title: String?,
+  public val message: String,
+  public val btnTextPositive: String? = null,
+  public val btnTextNegative: String? = null,
+  public val isConfirmCancel: Boolean = false,
+  public val isCancelable: Boolean = true
+) : NavArgs {
+  public fun toBundle(): Bundle {
+    val result = Bundle()
+    result.putInt("id", this.id)
+    result.putString("title", this.title)
+    result.putString("message", this.message)
+    result.putString("btn_text_positive", this.btnTextPositive)
+    result.putString("btn_text_negative", this.btnTextNegative)
+    result.putBoolean("isConfirmCancel", this.isConfirmCancel)
+    result.putBoolean("isCancelable", this.isCancelable)
+    return result
+  }
+
+  public companion object {
+    @JvmStatic
+    public fun fromBundle(bundle: Bundle): ConfirmDialogFragmentArgs {
+      bundle.setClassLoader(ConfirmDialogFragmentArgs::class.java.classLoader)
+      val __id : Int
+      if (bundle.containsKey("id")) {
+        __id = bundle.getInt("id")
+      } else {
+        __id = 100
+      }
+      val __title : String?
+      if (bundle.containsKey("title")) {
+        __title = bundle.getString("title")
+      } else {
+        throw IllegalArgumentException("Required argument \"title\" is missing and does not have an android:defaultValue")
+      }
+      val __message : String?
+      if (bundle.containsKey("message")) {
+        __message = bundle.getString("message")
+        if (__message == null) {
+          throw IllegalArgumentException("Argument \"message\" is marked as non-null but was passed a null value.")
+        }
+      } else {
+        throw IllegalArgumentException("Required argument \"message\" is missing and does not have an android:defaultValue")
+      }
+      val __btnTextPositive : String?
+      if (bundle.containsKey("btn_text_positive")) {
+        __btnTextPositive = bundle.getString("btn_text_positive")
+      } else {
+        __btnTextPositive = null
+      }
+      val __btnTextNegative : String?
+      if (bundle.containsKey("btn_text_negative")) {
+        __btnTextNegative = bundle.getString("btn_text_negative")
+      } else {
+        __btnTextNegative = null
+      }
+      val __isConfirmCancel : Boolean
+      if (bundle.containsKey("isConfirmCancel")) {
+        __isConfirmCancel = bundle.getBoolean("isConfirmCancel")
+      } else {
+        __isConfirmCancel = false
+      }
+      val __isCancelable : Boolean
+      if (bundle.containsKey("isCancelable")) {
+        __isCancelable = bundle.getBoolean("isCancelable")
+      } else {
+        __isCancelable = true
+      }
+      return ConfirmDialogFragmentArgs(__id, __title, __message, __btnTextPositive,
+          __btnTextNegative, __isConfirmCancel, __isCancelable)
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "738159456881",
+    "project_id": "ondago-341b8",
+    "storage_bucket": "ondago-341b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738159456881:android:3e55fc9aa436f6782c21d0",
+        "android_client_info": {
+          "package_name": "kr.co.kit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738159456881-kac50j64qm99c9d327p2kqg3snr4dv4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbx9Z6j8BC1dbn-CZ-S-FEuFZGVUNWmGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738159456881-kac50j64qm99c9d327p2kqg3snr4dv4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738159456881:android:a1d59c7f3f6cdcca2c21d0",
+        "android_client_info": {
+          "package_name": "kr.co.kit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738159456881-kac50j64qm99c9d327p2kqg3snr4dv4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbx9Z6j8BC1dbn-CZ-S-FEuFZGVUNWmGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738159456881-kac50j64qm99c9d327p2kqg3snr4dv4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

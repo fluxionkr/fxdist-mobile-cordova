@@ -1,0 +1,94 @@
+package kr.co.kit.cordova.plugin.nfc;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u000b\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0006\n\u0002\u0010\u000b\n\u0002\b\r\u0018\u0000 72\u00020\u0001:\u00017B\u001d\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u0006\u0010\u0006\u001a\u00020\u0007\u00a2\u0006\u0002\u0010\bJ\u0019\u0010\u001f\u001a\u00020 2\u0006\u0010!\u001a\u00020\"H\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010#J \u0010\u0015\u001a\u00020$2\u0006\u0010!\u001a\u00020\"2\u0006\u0010%\u001a\u00020\u00112\b\b\u0002\u0010&\u001a\u00020\u0011J\u0019\u0010\'\u001a\u00020 2\u0006\u0010!\u001a\u00020\"H\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010#J)\u0010(\u001a\u00020 2\u0006\u0010!\u001a\u00020\"2\u0006\u0010)\u001a\u00020\u00112\u0006\u0010*\u001a\u00020+H\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010,J\u000e\u0010-\u001a\b\u0012\u0004\u0012\u00020\u000e0\nH\u0002J\u0019\u0010.\u001a\u00020 2\u0006\u0010!\u001a\u00020\"H\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010#J\u0019\u0010/\u001a\u00020 2\u0006\u0010!\u001a\u00020\"H\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010#J\u0019\u00100\u001a\u00020$2\u0006\u0010\u0013\u001a\u00020\u000bH\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u00101J\u0010\u00102\u001a\u00020$2\u0006\u0010\u0019\u001a\u00020\u000eH\u0002J\u0018\u00103\u001a\u00020$2\u0006\u0010%\u001a\u00020\u00112\u0006\u0010&\u001a\u00020\u0011H\u0002J\u0010\u00104\u001a\u00020$2\u0006\u0010\u001d\u001a\u00020\u0011H\u0002J\u000e\u00105\u001a\u00020$2\u0006\u00106\u001a\u00020\u000eR\u0014\u0010\t\u001a\b\u0012\u0004\u0012\u00020\u000b0\nX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\f\u001a\u000e\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u000e0\r0\nX\u0082\u0004\u00a2\u0006\u0002\n\u0000R \u0010\u000f\u001a\u0014\u0012\u0010\u0012\u000e\u0012\u0004\u0012\u00020\u0011\u0012\u0004\u0012\u00020\u00110\u00100\nX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0012\u001a\u000e\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u00110\r0\nX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0017\u0010\u0013\u001a\b\u0012\u0004\u0012\u00020\u000b0\u0014\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0015\u0010\u0016R\u0017\u0010\u0017\u001a\b\u0012\u0004\u0012\u00020\u000e0\u0014\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0018\u0010\u0016R\u001d\u0010\u0019\u001a\u000e\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u000e0\r0\u0014\u00a2\u0006\b\n\u0000\u001a\u0004\b\u001a\u0010\u0016R\u000e\u0010\u0006\u001a\u00020\u0007X\u0082\u0004\u00a2\u0006\u0002\n\u0000R#\u0010\u001b\u001a\u0014\u0012\u0010\u0012\u000e\u0012\u0004\u0012\u00020\u0011\u0012\u0004\u0012\u00020\u00110\u00100\u0014\u00a2\u0006\b\n\u0000\u001a\u0004\b\u001c\u0010\u0016R\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001d\u0010\u001d\u001a\u000e\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u00110\r0\u0014\u00a2\u0006\b\n\u0000\u001a\u0004\b\u001e\u0010\u0016\u0082\u0002\u0004\n\u0002\b\u0019\u00a8\u00068"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/NFCViewModel;", "Landroidx/lifecycle/AndroidViewModel;", "application", "Landroid/app/Application;", "savedStateHandle", "Landroidx/lifecycle/SavedStateHandle;", "nfcRepository", "Lkr/co/kit/cordova/plugin/nfc/NFCRepository;", "(Landroid/app/Application;Landroidx/lifecycle/SavedStateHandle;Lkr/co/kit/cordova/plugin/nfc/NFCRepository;)V", "_data", "Landroidx/lifecycle/MutableLiveData;", "Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Data;", "_errorMessage", "Lkr/co/kit/kitdist/utils/Event;", "", "_progress", "Lkotlin/Pair;", "", "_status", "data", "Landroidx/lifecycle/LiveData;", "getData", "()Landroidx/lifecycle/LiveData;", "device", "getDevice", "errorMessage", "getErrorMessage", "progress", "getProgress", "status", "getStatus", "getAAR", "Landroid/nfc/NdefMessage;", "tag", "Landroid/nfc/Tag;", "(Landroid/nfc/Tag;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "", "currentPageIndex", "totalPageCount", "getDataInfoMessage", "getDataMessage", "pageIndex", "isSetDevice", "", "(Landroid/nfc/Tag;IZLkotlin/coroutines/Continuation;)Ljava/lang/Object;", "getSavedDeviceName", "getStartConnMessage", "getStopConnMessage", "postDataLiveData", "(Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Data;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "postErrorMessageLiveData", "postProgressLiveData", "postStatusLiveData", "saveCurrentDeviceName", "deviceName", "Companion", "KITDIST_0.1.4_20210328_release"})
+public final class NFCViewModel extends androidx.lifecycle.AndroidViewModel {
+    @org.jetbrains.annotations.NotNull()
+    private final androidx.lifecycle.LiveData<java.lang.String> device = null;
+    private final androidx.lifecycle.MutableLiveData<kr.co.kit.kitdist.utils.Event<java.lang.Integer>> _status = null;
+    @org.jetbrains.annotations.NotNull()
+    private final androidx.lifecycle.LiveData<kr.co.kit.kitdist.utils.Event<java.lang.Integer>> status = null;
+    private final androidx.lifecycle.MutableLiveData<kotlin.Pair<java.lang.Integer, java.lang.Integer>> _progress = null;
+    @org.jetbrains.annotations.NotNull()
+    private final androidx.lifecycle.LiveData<kotlin.Pair<java.lang.Integer, java.lang.Integer>> progress = null;
+    private final androidx.lifecycle.MutableLiveData<kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data> _data = null;
+    @org.jetbrains.annotations.NotNull()
+    private final androidx.lifecycle.LiveData<kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data> data = null;
+    private final androidx.lifecycle.MutableLiveData<kr.co.kit.kitdist.utils.Event<java.lang.String>> _errorMessage = null;
+    @org.jetbrains.annotations.NotNull()
+    private final androidx.lifecycle.LiveData<kr.co.kit.kitdist.utils.Event<java.lang.String>> errorMessage = null;
+    private final androidx.lifecycle.SavedStateHandle savedStateHandle = null;
+    private final kr.co.kit.cordova.plugin.nfc.NFCRepository nfcRepository = null;
+    @org.jetbrains.annotations.NotNull()
+    public static final java.lang.String KEY_STATE_DEVICE_NAME = "device_name";
+    public static final long NFC_READ_MSG_DELAY_TIME = 20L;
+    public static final long NFC_READ_MSG_CONNECTION_EXPIRE_TIME = 1000L;
+    public static final long NFC_READ_MSG_GET_DATA_INFO_EXPIRE_TIME = 3000L;
+    public static final long NFC_READ_MSG_GET_DATA_EXPIRE_TIME = 5000L;
+    @org.jetbrains.annotations.NotNull()
+    public static final kr.co.kit.cordova.plugin.nfc.NFCViewModel.Companion Companion = null;
+    
+    @org.jetbrains.annotations.NotNull()
+    public final androidx.lifecycle.LiveData<java.lang.String> getDevice() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final androidx.lifecycle.LiveData<kr.co.kit.kitdist.utils.Event<java.lang.Integer>> getStatus() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final androidx.lifecycle.LiveData<kotlin.Pair<java.lang.Integer, java.lang.Integer>> getProgress() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final androidx.lifecycle.LiveData<kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data> getData() {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public final androidx.lifecycle.LiveData<kr.co.kit.kitdist.utils.Event<java.lang.String>> getErrorMessage() {
+        return null;
+    }
+    
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    public final void getData(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, int currentPageIndex, int totalPageCount) {
+    }
+    
+    private final androidx.lifecycle.MutableLiveData<java.lang.String> getSavedDeviceName() {
+        return null;
+    }
+    
+    public final void saveCurrentDeviceName(@org.jetbrains.annotations.NotNull()
+    java.lang.String deviceName) {
+    }
+    
+    private final void postStatusLiveData(@kr.co.kit.cordova.plugin.nfc.device.BoardADL.Status()
+    int status) {
+    }
+    
+    private final void postProgressLiveData(int currentPageIndex, int totalPageCount) {
+    }
+    
+    private final void postErrorMessageLiveData(java.lang.String errorMessage) {
+    }
+    
+    public NFCViewModel(@org.jetbrains.annotations.NotNull()
+    android.app.Application application, @org.jetbrains.annotations.NotNull()
+    androidx.lifecycle.SavedStateHandle savedStateHandle, @org.jetbrains.annotations.NotNull()
+    kr.co.kit.cordova.plugin.nfc.NFCRepository nfcRepository) {
+        super(null);
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\t\n\u0002\b\u0004\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0006X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\b\u001a\u00020\u0006X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0006X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\n"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/NFCViewModel$Companion;", "", "()V", "KEY_STATE_DEVICE_NAME", "", "NFC_READ_MSG_CONNECTION_EXPIRE_TIME", "", "NFC_READ_MSG_DELAY_TIME", "NFC_READ_MSG_GET_DATA_EXPIRE_TIME", "NFC_READ_MSG_GET_DATA_INFO_EXPIRE_TIME", "KITDIST_0.1.4_20210328_release"})
+    public static final class Companion {
+        
+        private Companion() {
+            super();
+        }
+    }
+}

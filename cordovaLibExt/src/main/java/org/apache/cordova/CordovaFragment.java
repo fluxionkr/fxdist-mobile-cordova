@@ -23,7 +23,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import kr.co.aiblab.cordovalibext.R;
+import kr.co.kit.cordovalibext.R;
 
 public class CordovaFragment extends Fragment {
 

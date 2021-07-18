@@ -1,0 +1,142 @@
+package kr.co.kit.kitdist.databinding;
+import kr.co.kit.kitdist.R;
+import kr.co.kit.kitdist.BR;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import android.view.View;
+@SuppressWarnings("unchecked")
+public class FragmentDialogSignpadBindingImpl extends FragmentDialogSignpadBinding  {
+
+    @Nullable
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    @Nullable
+    private static final android.util.SparseIntArray sViewsWithIds;
+    static {
+        sIncludes = null;
+        sViewsWithIds = new android.util.SparseIntArray();
+        sViewsWithIds.put(R.id.cl_base, 3);
+        sViewsWithIds.put(R.id.divider, 4);
+        sViewsWithIds.put(R.id.divider2, 5);
+        sViewsWithIds.put(R.id.signature_pad, 6);
+    }
+    // views
+    // variables
+    // values
+    // listeners
+    // Inverse Binding Event Handlers
+
+    public FragmentDialogSignpadBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
+    }
+    private FragmentDialogSignpadBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+        super(bindingComponent, root, 0
+            , (androidx.appcompat.widget.AppCompatButton) bindings[2]
+            , (androidx.appcompat.widget.AppCompatButton) bindings[1]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[3]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
+            , (android.view.View) bindings[4]
+            , (android.view.View) bindings[5]
+            , (com.github.gcacace.signaturepad.views.SignaturePad) bindings[6]
+            );
+        this.abtnCancel.setTag(null);
+        this.abtnConfirm.setTag(null);
+        this.constraintLayout.setTag(null);
+        setRootTag(root);
+        // listeners
+        invalidateAll();
+    }
+
+    @Override
+    public void invalidateAll() {
+        synchronized(this) {
+                mDirtyFlags = 0x4L;
+        }
+        requestRebind();
+    }
+
+    @Override
+    public boolean hasPendingBindings() {
+        synchronized(this) {
+            if (mDirtyFlags != 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public boolean setVariable(int variableId, @Nullable Object variable)  {
+        boolean variableSet = true;
+        if (BR.cancelClickListener == variableId) {
+            setCancelClickListener((android.view.View.OnClickListener) variable);
+        }
+        else if (BR.confirmClickListener == variableId) {
+            setConfirmClickListener((android.view.View.OnClickListener) variable);
+        }
+        else {
+            variableSet = false;
+        }
+            return variableSet;
+    }
+
+    public void setCancelClickListener(@Nullable android.view.View.OnClickListener CancelClickListener) {
+        this.mCancelClickListener = CancelClickListener;
+        synchronized(this) {
+            mDirtyFlags |= 0x1L;
+        }
+        notifyPropertyChanged(BR.cancelClickListener);
+        super.requestRebind();
+    }
+    public void setConfirmClickListener(@Nullable android.view.View.OnClickListener ConfirmClickListener) {
+        this.mConfirmClickListener = ConfirmClickListener;
+        synchronized(this) {
+            mDirtyFlags |= 0x2L;
+        }
+        notifyPropertyChanged(BR.confirmClickListener);
+        super.requestRebind();
+    }
+
+    @Override
+    protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
+        switch (localFieldId) {
+        }
+        return false;
+    }
+
+    @Override
+    protected void executeBindings() {
+        long dirtyFlags = 0;
+        synchronized(this) {
+            dirtyFlags = mDirtyFlags;
+            mDirtyFlags = 0;
+        }
+        android.view.View.OnClickListener cancelClickListener = mCancelClickListener;
+        android.view.View.OnClickListener confirmClickListener = mConfirmClickListener;
+
+        if ((dirtyFlags & 0x5L) != 0) {
+        }
+        if ((dirtyFlags & 0x6L) != 0) {
+        }
+        // batch finished
+        if ((dirtyFlags & 0x5L) != 0) {
+            // api target 1
+
+            this.abtnCancel.setOnClickListener(cancelClickListener);
+        }
+        if ((dirtyFlags & 0x6L) != 0) {
+            // api target 1
+
+            this.abtnConfirm.setOnClickListener(confirmClickListener);
+        }
+    }
+    // Listener Stub Implementations
+    // callback impls
+    // dirty flag
+    private  long mDirtyFlags = 0xffffffffffffffffL;
+    /* flag mapping
+        flag 0 (0x1L): cancelClickListener
+        flag 1 (0x2L): confirmClickListener
+        flag 2 (0x3L): null
+    flag mapping end*/
+    //end
+}

@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\navigation_main_navigation.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\navigation\\main_navigation.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_kit_logo.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-hdpi\\kit_logo.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\layout_fragment_dialog_nfc.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_dialog_nfc.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_bg_button_signpad_confirm.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\bg_button_signpad_confirm.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_fragment_slide_in_right.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\fragment_slide_in_right.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_item_animation_fall_down.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\item_animation_fall_down.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\navigation_dialog_signpad.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\navigation\\dialog_signpad.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_layout_animation_fall_down.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\layout_animation_fall_down.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_og_img_logo.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xhdpi\\og_img_logo.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_signpad_divider_vertical_dashed.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\signpad_divider_vertical_dashed.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_og_img_check_off.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xhdpi\\og_img_check_off.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_fragment_slide_out_right.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\fragment_slide_out_right.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\layout_fragment_splash.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_og_img_logo_man.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xhdpi\\og_img_logo_man.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_fragment_fade_in.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\fragment_fade_in.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_close_24.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_kit_logo03.jpg.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-hdpi\\kit_logo03.jpg"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_fragment_slide_out_left.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\fragment_slide_out_left.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_fragment_fade_out.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\fragment_fade_out.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_og_img_check_off.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxxhdpi\\og_img_check_off.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\layout_activity_nfc_tag.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\activity_nfc_tag.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\xml_nfc_tech_filter.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\xml\\nfc_tech_filter.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_signpad_bg_stroke.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\signpad_bg_stroke.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_og_img_check_on.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-hdpi\\og_img_check_on.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_og_img_check_on.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xhdpi\\og_img_check_on.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\xml_file_paths.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\anim_fragment_slide_in_left.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\anim\\fragment_slide_in_left.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\layout_fragment_dialog_signpad.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_dialog_signpad.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_ic_android_black_24dp.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_og_img_check_on.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxhdpi\\og_img_check_on.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_kit_logo02.jpg.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-hdpi\\kit_logo02.jpg"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_og_img_logo_man.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-hdpi\\og_img_logo_man.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_og_img_logo_man.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxhdpi\\og_img_logo_man.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\layout_fragment_login.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_og_img_logo.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxhdpi\\og_img_logo.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_og_img_check_off.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-hdpi\\og_img_check_off.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ondago_logo.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-hdpi\\ondago_logo.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\xml_network_security_config.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_og_img_check_off.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxhdpi\\og_img_check_off.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\xml_config.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_bg_button_signpad_cancel.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\bg_button_signpad_cancel.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_login_checkbox_selector.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\login_checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\navigation_dialog_confirm_navigation.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\navigation\\dialog_confirm_navigation.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\navigation_dialog_nfc.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\navigation\\dialog_nfc.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_og_img_check_on.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxxhdpi\\og_img_check_on.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable_bg_button_login.xml.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable\\bg_button_login.xml"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_og_img_logo.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxxhdpi\\og_img_logo.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_og_img_logo_man.png.flat",
+        "source": "E:\\eGovFrameDev-3.9.0-64bit\\kit\\kitdist-mobile-cordova\\kitdist\\src\\main\\res\\drawable-xxxhdpi\\og_img_logo_man.png"
+    }
+]

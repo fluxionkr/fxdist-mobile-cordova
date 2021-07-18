@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f6091ff-39c1-438e-ac12-d7b0100b4c6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/barcode/QRScannerActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordovaLibExt/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cordovaLibExt/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordovaLibExt/src/main/java/org/apache/cordova/CordovaFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/cordovaLibExt/src/main/java/org/apache/cordova/CordovaFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordovaLibExt/src/main/java/org/apache/cordova/CordovaFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cordovaLibExt/src/main/java/org/apache/cordova/CordovaFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/androidTest/java/kr/co/aiblab/ondago/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/androidTest/java/kr/co/kit/kitdist/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/cordova-js-src/android/nativeapiprovider.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/cordova-js-src/android/nativeapiprovider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/cordova-js-src/android/promptbasednativeapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/cordova-js-src/android/promptbasednativeapi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/cordova-js-src/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/cordova-js-src/exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/cordova-js-src/platform.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/cordova-js-src/platform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/cordova-js-src/plugin/android/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/cordova-js-src/plugin/android/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/cordova.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/cordova.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/cordova_plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/cordova_plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/plugins/kr.co.aiblab.plugin.auth/www/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/plugins/kr.co.aiblab.plugin.auth/www/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/plugins/kr.co.aiblab.plugin.barcode/www/Barcode.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/plugins/kr.co.aiblab.plugin.barcode/www/Barcode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/plugins/kr.co.aiblab.plugin.camera/www/Camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/plugins/kr.co.aiblab.plugin.camera/www/Camera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/plugins/kr.co.aiblab.plugin.location/www/Location.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/plugins/kr.co.aiblab.plugin.location/www/Location.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/plugins/kr.co.aiblab.plugin.navigation/www/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/plugins/kr.co.aiblab.plugin.navigation/www/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/plugins/kr.co.aiblab.plugin.nfc/www/NFC.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/plugins/kr.co.aiblab.plugin.nfc/www/NFC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/assets/www/plugins/kr.co.aiblab.plugin.signpad/www/SignPad.js" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/assets/www/plugins/kr.co.aiblab.plugin.signpad/www/SignPad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/auth/Auth.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/auth/Auth.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/barcode/Barcode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/barcode/Barcode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/barcode/QRScannerActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/camera/Camera.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/camera/Camera.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/location/Location.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/location/Location.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/location/LocationService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/location/MyLocationManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/location/MyLocationManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/navigation/Navigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/navigation/Navigation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/BaseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/BaseRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/FeliCaLiteTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/FeliCaLiteTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/NFC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/NFC.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/NFCAdapterHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/NFCAdapterHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/NFCDevice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/NFCDevice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/NFCRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/NFCRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/NFCTagDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/NFCTagDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/NFCViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/NFCViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/NFCViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/NFCViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/device/BoardADL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/device/BoardADL.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/nfc/device/D0201.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/nfc/device/D0201.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/signpad/SignPad.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/signpad/SignPad.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/signpad/SignPadDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/signpad/SignPadDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/cordova/plugin/utils/PluginExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/cordova/plugin/utils/PluginExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/CordovaApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/CordovaApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/api/OndagoAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/api/KitAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/api/ServiceAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/api/ServiceAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/data/Error.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/data/Error.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/data/LocationData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/data/LocationData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/data/LoginData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/data/LoginData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/data/LoginRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/data/LoginRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/data/NetworkState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/data/NetworkState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/data/RespData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/data/RespData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/data/UserData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/data/UserData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/ui/ConfirmDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/ui/ConfirmDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/ui/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/ui/LoginFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/ui/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/ui/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/ui/SplashFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/ui/SplashFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/AndroidViewModelExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/AndroidViewModelExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/BitmapExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/BitmapExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/BytesExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/BytesExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/ContextExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/ContextExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/Event.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/NotificationHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/NotificationHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/RootChecker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/RootChecker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/utils/SharedPrefUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/utils/SharedPrefUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/viewmodels/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/viewmodels/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/viewmodels/LoginViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/viewmodels/LoginViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/viewmodels/SplashViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/viewmodels/SplashViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/webview/CordovaWebChromeClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/webview/CordovaWebChromeClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/kr/co/aiblab/ondago/webview/CordovaWebViewClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/kr/co/kit/kitdist/webview/CordovaWebViewClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/java/org/apache/cordova/whitelist/WhitelistPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/java/org/apache/cordova/whitelist/WhitelistPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/fragment_fade_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/fragment_fade_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/fragment_fade_out.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/fragment_fade_out.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/fragment_slide_in_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/fragment_slide_in_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/fragment_slide_in_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/fragment_slide_in_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/fragment_slide_out_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/fragment_slide_out_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/fragment_slide_out_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/fragment_slide_out_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/item_animation_fall_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/item_animation_fall_down.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/anim/layout_animation_fall_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/anim/layout_animation_fall_down.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-hdpi/og_img_check_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-hdpi/og_img_check_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-hdpi/og_img_check_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-hdpi/og_img_check_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-hdpi/og_img_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-hdpi/og_img_logo_man.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-hdpi/og_img_logo_man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-hdpi/ondago_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-hdpi/ondago_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xhdpi/og_img_check_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xhdpi/og_img_check_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xhdpi/og_img_check_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xhdpi/og_img_check_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xhdpi/og_img_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xhdpi/og_img_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xhdpi/og_img_logo_man.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xhdpi/og_img_logo_man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxhdpi/og_img_check_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxhdpi/og_img_check_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxhdpi/og_img_check_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxhdpi/og_img_check_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxhdpi/og_img_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxhdpi/og_img_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxhdpi/og_img_logo_man.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxhdpi/og_img_logo_man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxxhdpi/og_img_check_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxxhdpi/og_img_check_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxxhdpi/og_img_check_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxxhdpi/og_img_check_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxxhdpi/og_img_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxxhdpi/og_img_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable-xxxhdpi/og_img_logo_man.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable-xxxhdpi/og_img_logo_man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/bg_button_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/bg_button_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/bg_button_signpad_cancel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/bg_button_signpad_cancel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/bg_button_signpad_confirm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/bg_button_signpad_confirm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/ic_android_black_24dp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/ic_android_black_24dp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/ic_baseline_close_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/ic_baseline_close_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/login_checkbox_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/login_checkbox_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/signpad_bg_stroke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/signpad_bg_stroke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/drawable/signpad_divider_vertical_dashed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/drawable/signpad_divider_vertical_dashed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/layout/activity_nfc_tag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/layout/activity_nfc_tag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/layout/fragment_dialog_nfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/layout/fragment_dialog_nfc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/layout/fragment_dialog_signpad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/layout/fragment_dialog_signpad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/layout/fragment_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/layout/fragment_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/navigation/dialog_confirm_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/navigation/dialog_confirm_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/navigation/dialog_nfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/navigation/dialog_nfc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/navigation/dialog_signpad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/navigation/dialog_signpad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/navigation/main_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/navigation/main_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/values/colors_signpad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/values/colors_signpad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/values/strings_nfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/values/strings_nfc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/values/strings_signpad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/values/strings_signpad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/xml/file_paths.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/main/res/xml/nfc_tech_filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/main/res/xml/nfc_tech_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondago/src/test/java/kr/co/aiblab/ondago/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kitdist/src/test/java/kr/co/aiblab/kitdist/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\IT\.android\avd\Pixel_3a_API_30_x86.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\공유폴더\kitdist.jks" />
+    <option name="KEY_ALIAS" value="kitdist" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pGpFPFymLszglV3vYMjKEnnETA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Kitdist.kitdist" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-26T22:38:35.914Z" />
+    <property name="ExportApk.ApkPath" value="E:\cmjpower\git\kit-mobile-cordova\kitdist" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cmjpower/lis-mobile-cordova" />
+    <property name="project.structure.last.edited" value="Variables" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\eGovFrameDev-3.9.0-64bit\kit\kitdist-mobile-cordova\kitdist\src\main\res\mipmap-hdpi" />
+      <recent name="E:\cmjpower\git\kit-mobile-cordova\kitdist\src\main\res\drawable-hdpi" />
+      <recent name="E:\cmjpower\git\kit-mobile-cordova\kitdist\src\main\java\kr\co\kitdist\cordova\plugin\location" />
+      <recent name="E:\cmjpower\git\lis-mobile-cordova\ondago\src\main\res\drawable-hdpi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kitdist" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Kitdist.kitdist" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f6091ff-39c1-438e-ac12-d7b0100b4c6e" name="Default Changelist" comment="" />
+      <created>1614819176398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614819176398</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1626496652028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626496652028" />
+    <state x="346" y="71" key="SettingsEditor" timestamp="1622017417367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="346" y="71" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1622017417367" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/build.gradle</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

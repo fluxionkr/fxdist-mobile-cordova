@@ -1,0 +1,60 @@
+package kr.co.kit.cordova.plugin.location;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000>\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\t\n\u0002\b\u0004\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\n\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u0000 \u001e2\u00020\u0001:\u0001\u001eB\u0005\u00a2\u0006\u0002\u0010\u0002J\u0019\u0010\u0005\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\bH\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\tJ\u0010\u0010\n\u001a\u00020\u000b2\u0006\u0010\f\u001a\u00020\u000bH\u0002J\b\u0010\r\u001a\u00020\u0006H\u0016J\b\u0010\u000e\u001a\u00020\u0006H\u0016J\"\u0010\u000f\u001a\u00020\u00102\b\u0010\u0011\u001a\u0004\u0018\u00010\u00122\u0006\u0010\u0013\u001a\u00020\u00102\u0006\u0010\u0014\u001a\u00020\u0010H\u0017J#\u0010\u0015\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\b2\b\b\u0002\u0010\u0016\u001a\u00020\u000bH\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0017J\b\u0010\u0018\u001a\u00020\u0006H\u0002J\u0019\u0010\u0019\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\bH\u0083@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\tJ\b\u0010\u001a\u001a\u00020\u0006H\u0002J\u0019\u0010\u001b\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\bH\u0082@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\tJ\f\u0010\u001c\u001a\u00020\u001d*\u00020\bH\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000\u0082\u0002\u0004\n\u0002\b\u0019\u00a8\u0006\u001f"}, d2 = {"Lkr/co/kit/cordova/plugin/location/LocationService;", "Landroidx/lifecycle/LifecycleService;", "()V", "isServiceRunning", "", "cancelAlarm", "", "context", "Landroid/content/Context;", "(Landroid/content/Context;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "getTriggerAtMillis", "", "seconds", "onCreate", "onDestroy", "onStartCommand", "", "intent", "Landroid/content/Intent;", "flags", "startId", "setAlarm", "periodSeconds", "(Landroid/content/Context;JLkotlin/coroutines/Continuation;)Ljava/lang/Object;", "startForeground", "startGettingLocation", "stopForeground", "stopGettingLocation", "getAlarmManager", "Landroid/app/AlarmManager;", "Companion", "KITDIST_0.1.4_20210328_release"})
+public final class LocationService extends androidx.lifecycle.LifecycleService {
+    private boolean isServiceRunning = false;
+    public static final long LOCATION_ALARM_PERIOD_MINUTES = 10L;
+    public static final int NOTIFICATION_ID_FOREGROUND_LOCATION_SERVICE = 10;
+    @org.jetbrains.annotations.NotNull()
+    public static final java.lang.String ACTION_START_LOCATION_SERVICE = "kr.co.kit.action.START_LOCATION_SERVICE";
+    @org.jetbrains.annotations.NotNull()
+    public static final java.lang.String ACTION_GET_CURRENT_LOCATION = "kr.co.kit.action.GET_CURRENT_LOCATION";
+    @org.jetbrains.annotations.NotNull()
+    public static final java.lang.String ACTION_STOP_LOCATION_SERVICE = "kr.co.kit.action.STOP_LOCATION_SERVICE";
+    public static final int RC_ALARM_GET_CURRENT_LOCATION = 100;
+    @org.jetbrains.annotations.NotNull()
+    public static final kr.co.kit.cordova.plugin.location.LocationService.Companion Companion = null;
+    
+    @java.lang.Override()
+    public void onCreate() {
+    }
+    
+    @kotlinx.coroutines.ExperimentalCoroutinesApi()
+    @java.lang.Override()
+    public int onStartCommand(@org.jetbrains.annotations.Nullable()
+    android.content.Intent intent, int flags, int startId) {
+        return 0;
+    }
+    
+    @java.lang.Override()
+    public void onDestroy() {
+    }
+    
+    private final void startForeground() {
+    }
+    
+    private final void stopForeground() {
+    }
+    
+    private final android.app.AlarmManager getAlarmManager(android.content.Context $this$getAlarmManager) {
+        return null;
+    }
+    
+    private final long getTriggerAtMillis(long seconds) {
+        return 0L;
+    }
+    
+    public LocationService() {
+        super();
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\u0003\n\u0002\u0010\t\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\bX\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\nX\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\nX\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\f"}, d2 = {"Lkr/co/kit/cordova/plugin/location/LocationService$Companion;", "", "()V", "ACTION_GET_CURRENT_LOCATION", "", "ACTION_START_LOCATION_SERVICE", "ACTION_STOP_LOCATION_SERVICE", "LOCATION_ALARM_PERIOD_MINUTES", "", "NOTIFICATION_ID_FOREGROUND_LOCATION_SERVICE", "", "RC_ALARM_GET_CURRENT_LOCATION", "KITDIST_0.1.4_20210328_release"})
+    public static final class Companion {
+        
+        private Companion() {
+            super();
+        }
+    }
+}

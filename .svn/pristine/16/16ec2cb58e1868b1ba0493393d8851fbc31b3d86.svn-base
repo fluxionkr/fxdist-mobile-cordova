@@ -1,0 +1,114 @@
+package kr.co.kit.cordova.plugin.nfc;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\u0005\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0003\n\u0002\u0010\u000b\n\u0002\b\n\u0018\u0000 #2\u00020\u00012\u00020\u0002:\u0001#B\u000f\b\u0002\u0012\u0006\u0010\u0003\u001a\u00020\u0004\u00a2\u0006\u0002\u0010\u0005J\u0019\u0010\f\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\u000fH\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0010J)\u0010\u0011\u001a\u00020\u00122\u0006\u0010\u0013\u001a\u00020\u00142\u0006\u0010\u0015\u001a\u00020\u00162\u0006\u0010\u0017\u001a\u00020\u0016H\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0018J\u000e\u0010\u0019\u001a\u00020\u001a2\u0006\u0010\u0013\u001a\u00020\u0014J\u0010\u0010\u001b\u001a\u00020\u001a2\b\u0010\u0013\u001a\u0004\u0018\u00010\u0014J\u001b\u0010\u001c\u001a\u0004\u0018\u00010\u00142\u0006\u0010\u000e\u001a\u00020\u000fH\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0010J\u0019\u0010\u001d\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\u000fH\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0010J\u0019\u0010\u001e\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\u000fH\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0010J)\u0010\u001f\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\u000f2\u0006\u0010 \u001a\u00020\u00162\u0006\u0010\u0019\u001a\u00020\u001aH\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010!J\u0019\u0010\"\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\u000fH\u0096@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0010R\u001a\u0010\u0006\u001a\u00020\u0007X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\b\u0010\t\"\u0004\b\n\u0010\u000bR\u000e\u0010\u0003\u001a\u00020\u0004X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u0082\u0002\u0004\n\u0002\b\u0019\u00a8\u0006$"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/NFCRepository;", "Lkr/co/kit/cordova/plugin/nfc/BaseRepository;", "Lkr/co/kit/cordova/plugin/nfc/device/BoardADL;", "d0201", "Lkr/co/kit/cordova/plugin/nfc/device/D0201;", "(Lkr/co/kit/cordova/plugin/nfc/device/D0201;)V", "currentDevice", "", "getCurrentDevice", "()Ljava/lang/String;", "setCurrentDevice", "(Ljava/lang/String;)V", "getAAR", "", "tag", "Landroid/nfc/Tag;", "(Landroid/nfc/Tag;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "getData", "Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Data;", "respMessage", "Landroid/nfc/NdefMessage;", "currentPageIndex", "", "totalPageCount", "(Landroid/nfc/NdefMessage;IILkotlin/coroutines/Continuation;)Ljava/lang/Object;", "isSetDevice", "", "isStartConnRespEqualsReq", "readResponse", "startConnect", "stopConnect", "writeStoredData", "pageIndex", "(Landroid/nfc/Tag;IZLkotlin/coroutines/Continuation;)Ljava/lang/Object;", "writeStoredDataInfo", "Companion", "KITDIST_0.1.4_20210328_release"})
+public final class NFCRepository extends kr.co.kit.cordova.plugin.nfc.BaseRepository implements kr.co.kit.cordova.plugin.nfc.device.BoardADL {
+    public java.lang.String currentDevice;
+    private final kr.co.kit.cordova.plugin.nfc.device.D0201 d0201 = null;
+    private static volatile kr.co.kit.cordova.plugin.nfc.NFCRepository instance;
+    @org.jetbrains.annotations.NotNull()
+    public static final kr.co.kit.cordova.plugin.nfc.NFCRepository.Companion Companion = null;
+    
+    @org.jetbrains.annotations.NotNull()
+    public final java.lang.String getCurrentDevice() {
+        return null;
+    }
+    
+    public final void setCurrentDevice(@org.jetbrains.annotations.NotNull()
+    java.lang.String p0) {
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    @java.lang.Override()
+    public java.lang.Object getAAR(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    @java.lang.Override()
+    public java.lang.Object startConnect(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    @java.lang.Override()
+    public java.lang.Object stopConnect(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    @java.lang.Override()
+    public java.lang.Object writeStoredDataInfo(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p1) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    @java.lang.Override()
+    public java.lang.Object writeStoredData(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, int pageIndex, boolean isSetDevice, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> p3) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    @java.lang.Override()
+    public java.lang.Object readResponse(@org.jetbrains.annotations.NotNull()
+    android.nfc.Tag tag, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super android.nfc.NdefMessage> p1) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    @java.lang.Override()
+    public java.lang.Object getData(@org.jetbrains.annotations.NotNull()
+    android.nfc.NdefMessage respMessage, int currentPageIndex, int totalPageCount, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data> p3) {
+        return null;
+    }
+    
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    public final boolean isStartConnRespEqualsReq(@org.jetbrains.annotations.Nullable()
+    android.nfc.NdefMessage respMessage) throws kr.co.kit.cordova.plugin.nfc.NFCTagException {
+        return false;
+    }
+    
+    @kotlin.Suppress(names = {"BlockingMethodInNonBlockingContext"})
+    public final boolean isSetDevice(@org.jetbrains.annotations.NotNull()
+    android.nfc.NdefMessage respMessage) throws kr.co.kit.cordova.plugin.nfc.NFCTagException {
+        return false;
+    }
+    
+    private NFCRepository(kr.co.kit.cordova.plugin.nfc.device.D0201 d0201) {
+        super();
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J\u000e\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0006\u001a\u00020\u0007R\u0010\u0010\u0003\u001a\u0004\u0018\u00010\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006\b"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/NFCRepository$Companion;", "", "()V", "instance", "Lkr/co/kit/cordova/plugin/nfc/NFCRepository;", "getInstance", "d0201", "Lkr/co/kit/cordova/plugin/nfc/device/D0201;", "KITDIST_0.1.4_20210328_release"})
+    public static final class Companion {
+        
+        @org.jetbrains.annotations.NotNull()
+        public final kr.co.kit.cordova.plugin.nfc.NFCRepository getInstance(@org.jetbrains.annotations.NotNull()
+        kr.co.kit.cordova.plugin.nfc.device.D0201 d0201) {
+            return null;
+        }
+        
+        private Companion() {
+            super();
+        }
+    }
+}

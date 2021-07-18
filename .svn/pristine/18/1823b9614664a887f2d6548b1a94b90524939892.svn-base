@@ -1,0 +1,53 @@
+package kr.co.kit.cordova.plugin.nfc;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000J\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0003\u0018\u0000 \u001b2\u00020\u0001:\u0001\u001bB\u0005\u00a2\u0006\u0002\u0010\u0002J\u0010\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u0006H\u0016J\u0010\u0010\u0007\u001a\u00020\b2\u0006\u0010\t\u001a\u00020\nH\u0002J\u000f\u0010\u000b\u001a\u0004\u0018\u00010\fH\u0002\u00a2\u0006\u0002\u0010\rJ\u0018\u0010\u000e\u001a\u00020\f2\u0006\u0010\u000f\u001a\u00020\u00102\u0006\u0010\u0011\u001a\u00020\u0012H\u0016J\u0010\u0010\u0013\u001a\u00020\f2\u0006\u0010\u0014\u001a\u00020\u0015H\u0016J \u0010\u0016\u001a\u00020\u00042\u0006\u0010\u0017\u001a\u00020\b2\u0006\u0010\u0018\u001a\u00020\u00192\u0006\u0010\u001a\u001a\u00020\u0019H\u0002\u00a8\u0006\u001c"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/NFC;", "Lorg/apache/cordova/SimpleCordovaPlugin;", "()V", "execute", "", "args", "Lorg/json/JSONArray;", "getTagDataResult", "", "data", "Lkr/co/kit/cordova/plugin/nfc/device/BoardADL$Data;", "handleNavInteraction", "", "()Lkotlin/Unit;", "initialize", "cordova", "Lorg/apache/cordova/CordovaInterface;", "webView", "Lorg/apache/cordova/CordovaWebView;", "onNewIntent", "intent", "Landroid/content/Intent;", "showNFCTagDialog", "tagType", "currentPageIndex", "", "totalPageCount", "Companion", "KITDIST_0.1.4_20210526_debug"})
+public final class NFC extends org.apache.cordova.SimpleCordovaPlugin {
+    @org.jetbrains.annotations.NotNull()
+    public static final java.lang.String ACTION_SHOW_NFC_TAG_VIEW = "showNFCTagView";
+    @org.jetbrains.annotations.NotNull()
+    public static final kr.co.kit.cordova.plugin.nfc.NFC.Companion Companion = null;
+    
+    @java.lang.Override()
+    public void initialize(@org.jetbrains.annotations.NotNull()
+    org.apache.cordova.CordovaInterface cordova, @org.jetbrains.annotations.NotNull()
+    org.apache.cordova.CordovaWebView webView) {
+    }
+    
+    @java.lang.Override()
+    public boolean execute(@org.jetbrains.annotations.NotNull()
+    org.json.JSONArray args) {
+        return false;
+    }
+    
+    @java.lang.Override()
+    public void onNewIntent(@org.jetbrains.annotations.NotNull()
+    android.content.Intent intent) {
+    }
+    
+    private final boolean showNFCTagDialog(@kr.co.kit.cordova.plugin.nfc.NFCTagDialogFragment.TagType()
+    java.lang.String tagType, int currentPageIndex, int totalPageCount) {
+        return false;
+    }
+    
+    private final kotlin.Unit handleNavInteraction() {
+        return null;
+    }
+    
+    private final java.lang.String getTagDataResult(kr.co.kit.cordova.plugin.nfc.device.BoardADL.Data data) {
+        return null;
+    }
+    
+    public NFC() {
+        super();
+    }
+    
+    @kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0005"}, d2 = {"Lkr/co/kit/cordova/plugin/nfc/NFC$Companion;", "", "()V", "ACTION_SHOW_NFC_TAG_VIEW", "", "KITDIST_0.1.4_20210526_debug"})
+    public static final class Companion {
+        
+        private Companion() {
+            super();
+        }
+    }
+}

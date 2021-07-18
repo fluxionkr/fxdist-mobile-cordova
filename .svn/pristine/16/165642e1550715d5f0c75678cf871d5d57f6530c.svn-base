@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dialog_confirm_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "dialog_nfc",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "dialog_signpad",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "main_navigation",
+    "navigationXmlIds": [
+      "dialog_confirm_navigation",
+      "dialog_signpad",
+      "dialog_nfc"
+    ],
+    "deepLinks": []
+  }
+]

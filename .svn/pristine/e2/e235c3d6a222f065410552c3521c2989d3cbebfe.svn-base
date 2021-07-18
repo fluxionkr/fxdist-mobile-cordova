@@ -1,0 +1,64 @@
+package kr.co.kit.kitdist.utils;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 4, 1}, bv = {1, 0, 3}, k = 2, d1 = {"\u0000N\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\u001a2\u0010\u0000\u001a\u00020\u0001*\u00020\u00022\b\b\u0002\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0006\u001a\u00020\u00072\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\u0007H\u0002\u001a\f\u0010\t\u001a\u0004\u0018\u00010\n*\u00020\u000b\u001a)\u0010\f\u001a\u0004\u0018\u0001H\r\"\b\b\u0000\u0010\r*\u00020\n*\u00020\u000b2\f\u0010\u000e\u001a\b\u0012\u0004\u0012\u0002H\r0\u000f\u00a2\u0006\u0002\u0010\u0010\u001a$\u0010\u0011\u001a\u00020\u0001*\u00020\u00022\b\b\u0002\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0012\u001a\u00020\u0013\u001a$\u0010\u0014\u001a\u00020\u0001*\u00020\u00022\b\b\u0002\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0012\u001a\u00020\u0013\u001a\u0012\u0010\u0015\u001a\u00020\u0016*\u00020\u00022\u0006\u0010\u0017\u001a\u00020\u0004\u001a\u001e\u0010\u0018\u001a\u00020\u0019*\u00020\u00022\b\b\u0001\u0010\u001a\u001a\u00020\u001b2\b\b\u0002\u0010\u001c\u001a\u00020\u001b\u001a\u001c\u0010\u0018\u001a\u00020\u0019*\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\b\b\u0002\u0010\u001c\u001a\u00020\u001b\u001a\u001e\u0010\u0018\u001a\u00020\u0019*\u00020\n2\b\u0010\u0005\u001a\u0004\u0018\u00010\u00042\b\b\u0002\u0010\u001c\u001a\u00020\u001b\u00a8\u0006\u001d"}, d2 = {"getAlertDialog", "Landroidx/appcompat/app/AlertDialog;", "Landroid/content/Context;", "title", "", "message", "positiveClickListener", "Landroid/content/DialogInterface$OnClickListener;", "negativeClickListener", "getCurrentFragment", "Landroidx/fragment/app/Fragment;", "Landroidx/appcompat/app/AppCompatActivity;", "getFragment", "F", "fragmentClass", "Ljava/lang/Class;", "(Landroidx/appcompat/app/AppCompatActivity;Ljava/lang/Class;)Landroidx/fragment/app/Fragment;", "getJsAlertDialog", "result", "Landroid/webkit/JsResult;", "getJsConfirmDialog", "hasPermission", "", "permission", "showToast", "", "messageResId", "", "duration", "KITDIST_0.1.4_20210328_release"})
+public final class ContextExtensionsKt {
+    
+    @org.jetbrains.annotations.Nullable()
+    @kotlin.Suppress(names = {"unused"})
+    public static final <F extends androidx.fragment.app.Fragment>F getFragment(@org.jetbrains.annotations.NotNull()
+    androidx.appcompat.app.AppCompatActivity $this$getFragment, @org.jetbrains.annotations.NotNull()
+    java.lang.Class<F> fragmentClass) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.Nullable()
+    public static final androidx.fragment.app.Fragment getCurrentFragment(@org.jetbrains.annotations.NotNull()
+    androidx.appcompat.app.AppCompatActivity $this$getCurrentFragment) {
+        return null;
+    }
+    
+    public static final void showToast(@org.jetbrains.annotations.NotNull()
+    android.content.Context $this$showToast, @org.jetbrains.annotations.NotNull()
+    java.lang.String message, int duration) {
+    }
+    
+    public static final void showToast(@org.jetbrains.annotations.NotNull()
+    android.content.Context $this$showToast, @androidx.annotation.StringRes()
+    int messageResId, int duration) {
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public static final androidx.appcompat.app.AlertDialog getJsAlertDialog(@org.jetbrains.annotations.NotNull()
+    android.content.Context $this$getJsAlertDialog, @org.jetbrains.annotations.NotNull()
+    java.lang.String title, @org.jetbrains.annotations.NotNull()
+    java.lang.String message, @org.jetbrains.annotations.NotNull()
+    android.webkit.JsResult result) {
+        return null;
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    public static final androidx.appcompat.app.AlertDialog getJsConfirmDialog(@org.jetbrains.annotations.NotNull()
+    android.content.Context $this$getJsConfirmDialog, @org.jetbrains.annotations.NotNull()
+    java.lang.String title, @org.jetbrains.annotations.NotNull()
+    java.lang.String message, @org.jetbrains.annotations.NotNull()
+    android.webkit.JsResult result) {
+        return null;
+    }
+    
+    private static final androidx.appcompat.app.AlertDialog getAlertDialog(android.content.Context $this$getAlertDialog, java.lang.String title, java.lang.String message, android.content.DialogInterface.OnClickListener positiveClickListener, android.content.DialogInterface.OnClickListener negativeClickListener) {
+        return null;
+    }
+    
+    public static final void showToast(@org.jetbrains.annotations.NotNull()
+    androidx.fragment.app.Fragment $this$showToast, @org.jetbrains.annotations.Nullable()
+    java.lang.String message, int duration) {
+    }
+    
+    public static final boolean hasPermission(@org.jetbrains.annotations.NotNull()
+    android.content.Context $this$hasPermission, @org.jetbrains.annotations.NotNull()
+    java.lang.String permission) {
+        return false;
+    }
+}

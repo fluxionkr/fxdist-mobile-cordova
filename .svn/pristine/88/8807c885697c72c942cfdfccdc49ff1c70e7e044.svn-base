@@ -1,0 +1,38 @@
+package kr.co.kit.kitdist.ui
+
+import android.os.Bundle
+import androidx.navigation.ActionOnlyNavDirections
+import androidx.navigation.NavDirections
+import kotlin.Int
+import kotlin.String
+import kr.co.kit.kitdist.R
+
+public class MainFragmentDirections private constructor() {
+  private data class ActionNfc(
+    public val tagType: String,
+    public val currentPageIndex: Int = 1,
+    public val totalPageCount: Int = 0
+  ) : NavDirections {
+    public override fun getActionId(): Int = R.id.action_nfc
+
+    public override fun getArguments(): Bundle {
+      val result = Bundle()
+      result.putString("tagType", this.tagType)
+      result.putInt("currentPageIndex", this.currentPageIndex)
+      result.putInt("totalPageCount", this.totalPageCount)
+      return result
+    }
+  }
+
+  public companion object {
+    public fun actionLogout(): NavDirections = ActionOnlyNavDirections(R.id.action_logout)
+
+    public fun actionSignPad(): NavDirections = ActionOnlyNavDirections(R.id.action_signPad)
+
+    public fun actionNfc(
+      tagType: String,
+      currentPageIndex: Int = 1,
+      totalPageCount: Int = 0
+    ): NavDirections = ActionNfc(tagType, currentPageIndex, totalPageCount)
+  }
+}
