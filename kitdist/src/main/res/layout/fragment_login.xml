@@ -36,7 +36,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/fluxionsoft_logo" />
+                app:srcCompat="@drawable/fluxionsoft_logo_white" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/vg_login_input"
