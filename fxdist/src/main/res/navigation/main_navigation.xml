@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/flow_splash_dest"
-        android:name="kr.fluxion.fxdist.ui.SplashFragment"
+        android:name="kr.fluxion.fx.ui.SplashFragment"
         android:label="@string/fragment_label_splash"
         tools:layout="@layout/fragment_splash">
 
@@ -53,7 +53,7 @@
 
     <fragment
         android:id="@+id/flow_login_dest"
-        android:name="kr.fluxion.fxdist.ui.LoginFragment"
+        android:name="kr.fluxion.fx.ui.LoginFragment"
         tools:layout="@layout/fragment_login">
 
         <action
@@ -67,12 +67,12 @@
 
     <fragment
         android:id="@+id/flow_main_dest"
-        android:name="kr.fluxion.fxdist.ui.MainFragment"
+        android:name="kr.fluxion.fx.ui.MainFragment"
         tools:layout="@layout/fragment_cordova_ext">
 
         <argument
             android:name="userData"
-            app:argType="kr.fluxion.fxdist.data.UserData" />
+            app:argType="kr.fluxion.fx.data.UserData" />
 
         <action
             android:id="@+id/action_logout"

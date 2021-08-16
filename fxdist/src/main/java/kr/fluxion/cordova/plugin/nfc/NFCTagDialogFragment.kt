@@ -19,8 +19,7 @@ import kr.fluxion.cordova.plugin.nfc.device.BoardADL.Companion.getMessage
 import kr.fluxion.cordova.plugin.nfc.device.BoardADL.Status.Companion.FAILED_READ_DATA
 import kr.fluxion.cordova.plugin.nfc.device.BoardADL.Status.Companion.NO_MORE_DATA
 import kr.fluxion.cordova.plugin.nfc.device.D0201
-import kr.fluxion.cordova.plugin.nfc.*
-import kr.fluxion.fxdist.databinding.FragmentDialogNfcBinding
+import kr.fluxion.fx.databinding.FragmentDialogNfcBinding
 
 class NFCTagDialogFragment : BottomSheetDialogFragment(), NFCDataListener {
 

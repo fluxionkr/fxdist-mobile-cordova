@@ -17,9 +17,9 @@ import kr.fluxion.cordova.plugin.nfc.device.BoardADL.Companion.formattedDateTime
 import kr.fluxion.cordova.plugin.nfc.device.BoardADL.Companion.getEventCodeName
 import kr.fluxion.cordova.plugin.nfc.device.BoardADL.Companion.getTemperature
 import kr.fluxion.cordova.plugin.nfc.device.BoardADL.Companion.writeNdefMessage
-import kr.fluxion.fxdist.utils.convertToBytes
-import kr.fluxion.fxdist.utils.convertToInt
-import kr.fluxion.fxdist.utils.toHexString
+import kr.fluxion.fx.utils.convertToBytes
+import kr.fluxion.fx.utils.convertToInt
+import kr.fluxion.fx.utils.toHexString
 import kotlin.experimental.xor
 import kotlin.math.ceil
 

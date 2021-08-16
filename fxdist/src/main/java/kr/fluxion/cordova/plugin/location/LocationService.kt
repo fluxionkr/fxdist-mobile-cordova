@@ -16,12 +16,12 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect
 import kr.fluxion.cordova.plugin.location.LocationService.Companion.ACTION_GET_CURRENT_LOCATION
-import kr.fluxion.fxdist.BuildConfig.APPLICATION_ID
-import kr.fluxion.fxdist.api.ServiceAPI
-import kr.fluxion.fxdist.data.LocationReqBody
-import kr.fluxion.fxdist.utils.LocationServiceNotification.createForegroundServiceNotificationChannel
-import kr.fluxion.fxdist.utils.LocationServiceNotification.getForegroundServiceNotification
-import kr.fluxion.fxdist.utils.UserDataPrefHelper
+import kr.fluxion.fx.BuildConfig.APPLICATION_ID
+import kr.fluxion.fx.api.ServiceAPI
+import kr.fluxion.fx.data.LocationReqBody
+import kr.fluxion.fx.utils.LocationServiceNotification.createForegroundServiceNotificationChannel
+import kr.fluxion.fx.utils.LocationServiceNotification.getForegroundServiceNotification
+import kr.fluxion.fx.utils.UserDataPrefHelper
 import java.util.concurrent.TimeUnit
 
 class LocationService : LifecycleService() {

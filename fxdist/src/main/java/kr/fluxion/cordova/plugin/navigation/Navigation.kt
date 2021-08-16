@@ -1,9 +1,9 @@
 package kr.fluxion.cordova.plugin.navigation
 
 import androidx.navigation.fragment.findNavController
-import kr.fluxion.fxdist.ui.MainFragmentDirections.Companion.actionLogout
-import kr.fluxion.fxdist.utils.UserDataPrefHelper
-import kr.fluxion.fxdist.utils.getCurrentFragment
+import kr.fluxion.fx.ui.MainFragmentDirections.Companion.actionLogout
+import kr.fluxion.fx.utils.UserDataPrefHelper
+import kr.fluxion.fx.utils.getCurrentFragment
 import org.apache.cordova.SimpleCordovaPlugin
 import org.json.JSONArray
 

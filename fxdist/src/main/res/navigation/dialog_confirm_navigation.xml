@@ -6,7 +6,7 @@
 
     <dialog
         android:id="@+id/flow_dialog_dest"
-        android:name="kr.fluxion.fxdist.ui.ConfirmDialogFragment"
+        android:name="kr.fluxion.fx.ui.ConfirmDialogFragment"
         android:label="@string/fragment_label_confirm_dialog">
 
         <argument

@@ -13,7 +13,7 @@ import kr.fluxion.cordova.plugin.nfc.FeliCaLiteTag
 import kr.fluxion.cordova.plugin.nfc.FeliCaLiteTagException
 import kr.fluxion.cordova.plugin.nfc.NFCDevice
 import kr.fluxion.cordova.plugin.nfc.NFCTagException
-import kr.fluxion.fxdist.R
+import kr.fluxion.fx.R
 import org.threeten.bp.LocalDateTime
 import org.threeten.bp.format.DateTimeFormatter
 import kotlin.math.pow

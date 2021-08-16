@@ -14,7 +14,7 @@ import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.location.LocationSettingsRequest
 import com.orhanobut.logger.Logger
-import kr.fluxion.fxdist.utils.UserDataPrefHelper
+import kr.fluxion.fx.utils.UserDataPrefHelper
 import org.apache.cordova.SimpleCordovaPlugin
 import org.json.JSONArray
 

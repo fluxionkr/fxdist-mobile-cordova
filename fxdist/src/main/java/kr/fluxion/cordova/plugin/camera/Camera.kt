@@ -17,8 +17,8 @@ import androidx.exifinterface.media.ExifInterface
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 import com.orhanobut.logger.Logger
-import kr.fluxion.fxdist.BuildConfig
-import kr.fluxion.fxdist.utils.getBase64
+import kr.fluxion.fx.BuildConfig
+import kr.fluxion.fx.utils.getBase64
 import org.apache.cordova.SimpleCordovaPlugin
 import org.json.JSONArray
 import java.io.ByteArrayOutputStream

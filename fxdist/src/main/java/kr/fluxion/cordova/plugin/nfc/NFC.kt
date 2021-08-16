@@ -12,9 +12,9 @@ import kr.fluxion.cordova.plugin.nfc.NFCTagDialogFragment.Companion.ENTRY_TAG_ER
 import kr.fluxion.cordova.plugin.nfc.device.BoardADL
 import kr.fluxion.cordova.plugin.signpad.SignPadDialogFragment
 import kr.fluxion.cordova.plugin.utils.findFragment
-import kr.fluxion.fxdist.R
-import kr.fluxion.fxdist.ui.MainFragmentDirections.Companion.actionNfc
-import kr.fluxion.fxdist.utils.getCurrentFragment
+import kr.fluxion.fx.R
+import kr.fluxion.fx.ui.MainFragmentDirections.Companion.actionNfc
+import kr.fluxion.fx.utils.getCurrentFragment
 import org.apache.cordova.CordovaInterface
 import org.apache.cordova.CordovaWebView
 import org.apache.cordova.SimpleCordovaPlugin

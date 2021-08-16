@@ -13,9 +13,9 @@ import kr.fluxion.cordova.plugin.nfc.device.D0201.Companion.checkValidGetDataInf
 import kr.fluxion.cordova.plugin.nfc.device.D0201.Companion.checkValidGetDataPayload
 import kr.fluxion.cordova.plugin.nfc.device.D0201.Companion.checkValidStartConnectionPayload
 import kr.fluxion.cordova.plugin.nfc.device.D0201.Companion.checkValidStopConnectionPayload
-import kr.fluxion.fxdist.BuildConfig
-import kr.fluxion.fxdist.utils.Event
-import kr.fluxion.fxdist.utils.showHexData
+import kr.fluxion.fx.BuildConfig
+import kr.fluxion.fx.utils.Event
+import kr.fluxion.fx.utils.showHexData
 import java.util.*
 import kotlin.system.measureTimeMillis
 

@@ -3,8 +3,8 @@ package kr.fluxion.cordova.plugin.nfc
 import androidx.lifecycle.MutableLiveData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import kr.fluxion.fxdist.data.NetworkState
-import kr.fluxion.fxdist.utils.Event
+import kr.fluxion.fx.data.NetworkState
+import kr.fluxion.fx.utils.Event
 
 open class BaseRepository {
 

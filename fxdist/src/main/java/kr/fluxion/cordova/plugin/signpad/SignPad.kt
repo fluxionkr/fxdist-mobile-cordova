@@ -8,9 +8,9 @@ import com.google.gson.JsonObject
 import com.orhanobut.logger.Logger
 import kr.fluxion.cordova.plugin.signpad.SignPadDialogFragment.Companion.ENTRY_TAG_ERROR_CODE
 import kr.fluxion.cordova.plugin.signpad.SignPadDialogFragment.Companion.ENTRY_TAG_SIGN_DATA
-import kr.fluxion.fxdist.R
-import kr.fluxion.fxdist.ui.MainFragmentDirections.Companion.actionSignPad
-import kr.fluxion.fxdist.utils.getCurrentFragment
+import kr.fluxion.fx.R
+import kr.fluxion.fx.ui.MainFragmentDirections.Companion.actionSignPad
+import kr.fluxion.fx.utils.getCurrentFragment
 import org.apache.cordova.CordovaInterface
 import org.apache.cordova.CordovaWebView
 import org.apache.cordova.SimpleCordovaPlugin

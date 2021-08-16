@@ -12,9 +12,9 @@ import com.github.gcacace.signaturepad.views.SignaturePad
 import com.orhanobut.logger.Logger
 import kr.fluxion.cordova.plugin.signpad.SignPadDialogFragment.ErrorCode.Companion.CANCELED
 import kr.fluxion.cordova.plugin.signpad.SignPadDialogFragment.ErrorCode.Companion.NOT_SIGNED
-import kr.fluxion.fxdist.R
-import kr.fluxion.fxdist.databinding.FragmentDialogSignpadBinding
-import kr.fluxion.fxdist.utils.getBase64
+import kr.fluxion.fx.R
+import kr.fluxion.fx.databinding.FragmentDialogSignpadBinding
+import kr.fluxion.fx.utils.getBase64
 
 class SignPadDialogFragment : DialogFragment(), SignaturePad.OnSignedListener {
 

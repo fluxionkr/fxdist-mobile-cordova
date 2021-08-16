@@ -4,8 +4,9 @@ import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
 import kr.fluxion.cordova.plugin.utils.findFragment
-import kr.fluxion.fxdist.data.UserData
-import kr.fluxion.fxdist.ui.MainFragment
+import kr.fluxion.fx.data.UserData
+import kr.fluxion.fx.ui.MainFragment
+
 import org.apache.cordova.SimpleCordovaPlugin
 import org.json.JSONArray
 

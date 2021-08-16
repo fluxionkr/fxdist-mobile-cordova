@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="kr.fluxion.fxdist">
+    package="kr.fluxion.fx">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.NFC" />
@@ -44,7 +44,7 @@
             android:value="${apiKey}" />
 
         <activity
-            android:name="kr.fluxion.fxdist.ui.MainActivity"
+            android:name="kr.fluxion.fx.ui.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
             android:launchMode="singleInstance"
             android:theme="@style/AppTheme"
