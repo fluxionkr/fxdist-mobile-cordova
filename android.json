@@ -13,31 +13,31 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"Navigation\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.navigation\" /></feature>",
+              "xml": "<feature name=\"Navigation\"><param name=\"android-package\" value=\"kr.fluxion.cordova.plugin.navigation\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"NFC\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.nfc\" /></feature>",
+              "xml": "<feature name=\"NFC\"><param name=\"android-package\" value=\"kr.fluxion.cordova.plugin.nfc\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"SignPad\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.signpad\" /></feature>",
+              "xml": "<feature name=\"SignPad\"><param name=\"android-package\" value=\"kr.fluxion.cordova.plugin.signpad\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Location\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.location\" /></feature>",
+              "xml": "<feature name=\"Location\"><param name=\"android-package\" value=\"kr.fluxion.cordova.plugin.location\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.camera\" /></feature>",
+              "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"kr.fluxion.cordova.plugin.camera\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Barcode\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.barcode\" /></feature>",
+              "xml": "<feature name=\"Barcode\"><param name=\"android-package\" value=\"kr.fluxion.cordova.plugin.barcode\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<feature name=\"Auth\"><param name=\"android-package\" value=\"kr.co.kit.cordova.plugin.auth\" /></feature>",
+              "xml": "<feature name=\"Auth\"><param name=\"android-package\" value=\"kr.fluxion.cordova.plugin.auth\" /></feature>",
               "count": 1
             }
           ]
@@ -52,84 +52,84 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     },
-    "kr.co.kit.cordova.plugin.navigation": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+    "kr.fluxion.cordova.plugin.navigation": {
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     },
-    "kr.co.kit.cordova.plugin.nfc": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+    "kr.fluxion.cordova.plugin.nfc": {
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     },
-    "kr.co.kit.cordova.plugin.signpad": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+    "kr.fluxion.cordova.plugin.signpad": {
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     },
-    "kr.co.kit.cordova.plugin.location": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+    "kr.fluxion.cordova.plugin.location": {
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     },
-    "kr.co.kit.cordova.plugin.camera": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+    "kr.fluxion.cordova.plugin.camera": {
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     },
-    "kr.co.kit.cordova.plugin.barcode": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+    "kr.fluxion.cordova.plugin.barcode": {
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     },
-    "kr.co.kit.cordova.plugin.auth": {
-      "PACKAGE_NAME": "kr.co.kit.cordova"
+    "kr.fluxion.cordova.plugin.auth": {
+      "PACKAGE_NAME": "kr.fluxion.cordova"
     }
   },
   "dependent_plugins": {},
   "modules": [
     {
-      "id": "kr.co.kit.cordova.plugin.navigation.Navigation",
-      "file": "plugins/kr.co.kit.plugin.navigation/www/Navigation.js",
-      "pluginId": "kr.co.kit.cordova.plugin.navigation",
+      "id": "kr.fluxion.cordova.plugin.navigation.Navigation",
+      "file": "plugins/kr.fluxion.plugin.navigation/www/Navigation.js",
+      "pluginId": "kr.fluxion.cordova.plugin.navigation",
       "clobbers": [
         "cordova.plugins.Navigation"
       ]
     },
     {
-      "id": "kr.co.kit.cordova.plugin.nfc.NFC",
-      "file": "plugins/kr.co.kit.plugin.nfg/www/NFC.js",
-      "pluginId": "kr.co.kit.cordova.plugin.nfc",
+      "id": "kr.fluxion.cordova.plugin.nfc.NFC",
+      "file": "plugins/kr.fluxion.plugin.nfg/www/NFC.js",
+      "pluginId": "kr.fluxion.cordova.plugin.nfc",
       "clobbers": [
         "cordova.plugins.NFC"
       ]
     },
     {
-      "id": "kr.co.kit.cordova.plugin.signpad.SignPad",
-      "file": "plugins/kr.co.kit.plugin.signpad/www/SignPad.js",
-      "pluginId": "kr.co.kit.cordova.plugin.signpad",
+      "id": "kr.fluxion.cordova.plugin.signpad.SignPad",
+      "file": "plugins/kr.fluxion.plugin.signpad/www/SignPad.js",
+      "pluginId": "kr.fluxion.cordova.plugin.signpad",
       "clobbers": [
         "cordova.plugins.SignPad"
       ]
     },
     {
-      "id": "kr.co.kit.cordova.plugin.location.Location",
-      "file": "plugins/kr.co.kit.plugin.location/www/Location.js",
-      "pluginId": "kr.co.kit.cordova.plugin.signpad",
+      "id": "kr.fluxion.cordova.plugin.location.Location",
+      "file": "plugins/kr.fluxion.plugin.location/www/Location.js",
+      "pluginId": "kr.fluxion.cordova.plugin.signpad",
       "clobbers": [
         "cordova.plugins.Location"
       ]
     },
     {
-      "id": "kr.co.kit.cordova.plugin.camera.Camera",
-      "file": "plugins/kr.co.kit.plugin.camera/www/Camera.js",
-      "pluginId": "kr.co.kit.cordova.plugin.camera",
+      "id": "kr.fluxion.cordova.plugin.camera.Camera",
+      "file": "plugins/kr.fluxion.plugin.camera/www/Camera.js",
+      "pluginId": "kr.fluxion.cordova.plugin.camera",
       "clobbers": [
         "cordova.plugins.Camera"
       ]
     },
     {
-      "id": "kr.co.kit.cordova.plugin.barcode.Barcode",
-      "file": "plugins/kr.co.kit.plugin.barcode/www/Barcode.js",
-      "pluginId": "kr.co.kit.cordova.plugin.barcode",
+      "id": "kr.fluxion.cordova.plugin.barcode.Barcode",
+      "file": "plugins/kr.fluxion.plugin.barcode/www/Barcode.js",
+      "pluginId": "kr.fluxion.cordova.plugin.barcode",
       "clobbers": [
         "cordova.plugins.Barcode"
       ]
     },
     {
-      "id": "kr.co.kit.cordova.plugin.auth.Auth",
-      "file": "plugins/kr.co.kit.plugin.auth/www/Auth.js",
-      "pluginId": "kr.co.kit.cordova.plugin.auth",
+      "id": "kr.fluxion.cordova.plugin.auth.Auth",
+      "file": "plugins/kr.fluxion.plugin.auth/www/Auth.js",
+      "pluginId": "kr.fluxion.cordova.plugin.auth",
       "clobbers": [
         "cordova.plugins.Auth"
       ]
@@ -137,12 +137,12 @@
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.4",
-    "kr.co.kit.cordova.plugin.navigation": "1.0.0",
-    "kr.co.kit.cordova.plugin.nfc": "1.0.0",
-    "kr.co.kit.cordova.plugin.signpad": "1.0.0",
-    "kr.co.kit.cordova.plugin.location": "1.0.0",
-    "kr.co.kit.cordova.plugin.camera": "1.0.0",
-    "kr.co.kit.cordova.plugin.barcode": "1.0.0",
-    "kr.co.kit.cordova.plugin.auth": "1.0.0"
+    "kr.fluxion.cordova.plugin.navigation": "1.0.0",
+    "kr.fluxion.cordova.plugin.nfc": "1.0.0",
+    "kr.fluxion.cordova.plugin.signpad": "1.0.0",
+    "kr.fluxion.cordova.plugin.location": "1.0.0",
+    "kr.fluxion.cordova.plugin.camera": "1.0.0",
+    "kr.fluxion.cordova.plugin.barcode": "1.0.0",
+    "kr.fluxion.cordova.plugin.auth": "1.0.0"
   }
 }

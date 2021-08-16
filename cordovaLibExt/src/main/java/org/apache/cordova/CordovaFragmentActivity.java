@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import kr.co.kit.cordovalibext.R;
+import kr.fluxion.cordovalibext.R;
 
 public class CordovaFragmentActivity extends AppCompatActivity {
 

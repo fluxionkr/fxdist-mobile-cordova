@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="cordovaLibExt/src/main/java"/>
-	<classpathentry kind="src" path="kitdist/src/main/java"/>
+	<classpathentry kind="src" path="fxdist/src/main/java"/>
 	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
